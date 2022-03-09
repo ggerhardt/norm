@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: Normativos do Banco Central
+  description: Permite a busca de normativos do Banco Central por diversos parâmetros.
+  version: '1.0'
+  license:
+    url: http://www.opendefinition.org/licenses/odc-odbl
+    name: Licença Aberta para Bases de Dados (ODbL) do Open Data Commons
+  contact:
+    url: https://www.bcb.gov.br/acessoinformacao/faleconosco
+    name: Banco Central do Brasil
+servers:
+  - url: https://www.bcb.gov.br/api/servico/sitebcb/ri
+    description: Ambiente de produção
+paths:
+  /normas:
+    $ref: paths/normas.yaml

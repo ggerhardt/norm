@@ -1,0 +1,148 @@
+openapi: 3.0.0
+info:
+  title: Normativos do Banco Central
+  description: Permite a busca de normativos do Banco Central por diversos parâmetros.
+  version: '1.0'
+  license:
+    url: http://www.opendefinition.org/licenses/odc-odbl
+    name: Licença Aberta para Bases de Dados (ODbL) do Open Data Commons
+  contact:
+    url: https://www.bcb.gov.br/acessoinformacao/faleconosco
+    name: Banco Central do Brasil
+servers:
+  - url: https://www.bcb.gov.br/api/servico/sitebcb/ri
+    description: Ambiente de produção
+paths:
+  /normas:
+    get:
+      description: Busca normas do Banco Central do Brasil
+      summary: Busca de normas
+      operationId: getNormas
+      parameters:
+        - name: tipoDocumento
+          schema:
+            type: string
+            enum:
+              - Todos
+              - Ato de Diretor
+              - Ato Normativo Conjunto
+              - Ato do Presidente
+              - Carta Circular
+              - Circular
+              - Comunicado
+              - Comunicado Conjunto
+              - Decisão Conjunta
+              - Instrução Normativa BCB
+              - Instrução Normativa Conjunta
+              - Portaria Conjunta
+              - Resolução BCB
+              - Resolução CMN
+              - Resolução Conjunta
+              - Resolução Coremec
+            default: Todos
+          in: query
+          required: true
+          description: Tipo do documento desejado
+        - name: situacaoDocumento
+          schema:
+            type: string
+            enum:
+              - Em vigor
+              - Revogado
+          in: query
+          description: Situação dos normativos desejados. Este parâmetro é opcional.
+        - name: nroDocumento
+          schema:
+            type: string
+          in: query
+          description: Número do documento desejado.
+        - name: conteudo
+          schema:
+            type: string
+          in: query
+          description: Texto procurado no documento.
+        - name: periodoInicio
+          schema:
+            type: string
+          in: query
+          description: >-
+            Define uma data de início para buscar a partir do período de
+            publicação. A definição de uma 'data de fim' pode ser deixada em
+            branco mesmo que a 'data de início' seja definida.
+        - name: periodoFim
+          schema:
+            type: string
+          in: query
+          description: >-
+            Define uma data final para buscar a partir do período de publicação.
+            A definição da 'data de início' pode ser deixada em branco mesmo que
+            o 'data final' seja definida.
+      responses:
+        '200':
+          description: Lista de normas
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Normas'
+        '400':
+          description: Missing Required Information
+components:
+  schemas:
+    Norma:
+      type: object
+      additionalProperties: false
+      properties:
+        numero:
+          type: string
+          title: Número do documento
+          description: Número do documento. Junto com o tipo, compõe o título.
+          example: '38418'
+        tipo:
+          type: string
+          title: Tipo do documento. Junto com o número, compõe o título.
+          description: Tipo do documento
+          example: Comunicado
+        titulo:
+          type: string
+          title: Título
+          description: Título do documento
+          example: Comunicado n° 38.418, 9/3/2022
+        dataHoraPublicacao:
+          type: string
+          title: Data da publicação
+          format: date-time
+          description: Data de publicação, com formato conforme especificação RFC-3339
+          example: '1937-01-01T12:00:27.87-03:00'
+        assunto:
+          type: string
+          title: Assunto
+          description: Descrição do documento publicado
+          example: >-
+            O relatório hode inflação apresenta as diretrizes das políticas
+            adotadas pelo Copom, considerações acerca da evolução recente do
+            cenário econômico e projeções para a inflação. As projeções são
+            apresentadas em cenários com condicionantes para algumas variáveis
+            econômicas. O Copom utiliza um conjunto amplo de modelos e cenários
+            para orientar suas decisões de política monetária. Ao expor alguns
+            desses cenários, o Copom procura dar maior transparência às decisões
+            de política monetária, contribuindo para sua eficácia no controle da
+            inflação, que é seu objetivo precípuo.
+        unidadeResponsavel:
+          type: string
+          title: Unidade responsável
+          description: Unidade responsável pelo documento
+          example: DEORF
+        situacao:
+          type: string
+          enum:
+            - Em vigor
+            - Revogado
+          description: Situação do normativo.
+    Normas:
+      type: object
+      additionalProperties: false
+      properties:
+        conteudo:
+          type: array
+          items:
+            $ref: '#/components/schemas/Norma'

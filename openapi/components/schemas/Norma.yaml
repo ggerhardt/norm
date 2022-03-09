@@ -1,0 +1,48 @@
+type: object
+additionalProperties: false
+properties:
+  numero:
+    type: string
+    title: Número do documento
+    description: Número do documento. Junto com o tipo, compõe o título.
+    example: '38418'
+  tipo:
+    type: string
+    title: Tipo do documento. Junto com o número, compõe o título.
+    description: Tipo do documento
+    example: Comunicado
+  titulo:
+    type: string
+    title: Título
+    description: Título do documento
+    example: Comunicado n° 38.418, 9/3/2022
+  dataHoraPublicacao:
+    type: string
+    title: Data da publicação
+    format: date-time
+    description: Data de publicação, com formato conforme especificação RFC-3339
+    example: '1937-01-01T12:00:27.87-03:00'
+  assunto:
+    type: string
+    title: Assunto
+    description: Descrição do documento publicado
+    example: >-
+      O relatório hode inflação apresenta as diretrizes das políticas adotadas
+      pelo Copom, considerações acerca da evolução recente do cenário econômico
+      e projeções para a inflação. As projeções são apresentadas em cenários com
+      condicionantes para algumas variáveis econômicas. O Copom utiliza um
+      conjunto amplo de modelos e cenários para orientar suas decisões de
+      política monetária. Ao expor alguns desses cenários, o Copom procura dar
+      maior transparência às decisões de política monetária, contribuindo para
+      sua eficácia no controle da inflação, que é seu objetivo precípuo.
+  unidadeResponsavel:
+    type: string
+    title: Unidade responsável
+    description: Unidade responsável pelo documento
+    example: DEORF
+  situacao:
+    type: string
+    enum:
+      - Em vigor
+      - Revogado
+    description: Situação do normativo.

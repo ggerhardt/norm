@@ -1,0 +1,72 @@
+get:
+  description: Busca normas do Banco Central do Brasil
+  summary: Busca de normas
+  operationId: getNormas
+  parameters:
+    - name: tipoDocumento
+      schema:
+        type: string
+        enum:
+          - Todos
+          - Ato de Diretor
+          - Ato Normativo Conjunto
+          - Ato do Presidente
+          - Carta Circular
+          - Circular
+          - Comunicado
+          - Comunicado Conjunto
+          - Decisão Conjunta
+          - Instrução Normativa BCB
+          - Instrução Normativa Conjunta
+          - Portaria Conjunta
+          - Resolução BCB
+          - Resolução CMN
+          - Resolução Conjunta
+          - Resolução Coremec
+        default: Todos
+      in: query
+      required: true
+      description: Tipo do documento desejado
+    - name: situacaoDocumento
+      schema:
+        type: string
+        enum:
+          - Em vigor
+          - Revogado
+      in: query
+      description: Situação dos normativos desejados. Este parâmetro é opcional.
+    - name: nroDocumento
+      schema:
+        type: string
+      in: query
+      description: Número do documento desejado.
+    - name: conteudo
+      schema:
+        type: string
+      in: query
+      description: Texto procurado no documento.
+    - name: periodoInicio
+      schema:
+        type: string
+      in: query
+      description: >-
+        Define uma data de início para buscar a partir do período de publicação.
+        A definição de uma 'data de fim' pode ser deixada em branco mesmo que a
+        'data de início' seja definida.
+    - name: periodoFim
+      schema:
+        type: string
+      in: query
+      description: >-
+        Define uma data final para buscar a partir do período de publicação. A
+        definição da 'data de início' pode ser deixada em branco mesmo que o
+        'data final' seja definida.
+  responses:
+    '200':
+      description: Lista de normas
+      content:
+        application/json:
+          schema:
+            $ref: ..\components\schemas\Normas.yaml
+    '400':
+      description: Missing Required Information
