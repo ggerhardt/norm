@@ -1,6 +1,6 @@
 get:
   description: Busca normas do Banco Central do Brasil
-  summary: Busca de normas
+  summary: Lista de normas
   operationId: getNormas
   parameters:
     - name: tipoDocumento
@@ -63,7 +63,7 @@ get:
         'data final' seja definida.
   responses:
     '200':
-      description: Lista de normas
+      description: Sucesso
       content:
         application/json:
           schema:
