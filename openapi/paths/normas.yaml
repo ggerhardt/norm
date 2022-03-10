@@ -3,11 +3,10 @@ get:
   summary: Lista de normas
   operationId: getNormas
   parameters:
-    - name: tipoDocumento
+    - name: tipo_documento
       schema:
         type: string
         enum:
-          - Todos
           - Ato de Diretor
           - Ato Normativo Conjunto
           - Ato do Presidente
@@ -23,29 +22,27 @@ get:
           - Resolução CMN
           - Resolução Conjunta
           - Resolução Coremec
-        default: Todos
       in: query
-      required: true
       description: Tipo do documento desejado
-    - name: situacaoDocumento
+    - name: situacao_documento
       schema:
         type: string
         enum:
           - Em vigor
           - Revogado
       in: query
-      description: Situação dos normativos desejados. Este parâmetro é opcional.
-    - name: nroDocumento
+      description: Situação dos normativos desejados.
+    - name: nro_documento
       schema:
         type: string
       in: query
       description: Número do documento desejado.
-    - name: conteudo
+    - name: filtro_conteudo
       schema:
         type: string
       in: query
-      description: Texto procurado no documento.
-    - name: periodoInicio
+      description: Procura texto no conteúdo do documento.
+    - name: periodo_inicio
       schema:
         type: string
       in: query
@@ -53,7 +50,7 @@ get:
         Define uma data de início para buscar a partir do período de publicação.
         A definição de uma 'data de fim' pode ser deixada em branco mesmo que a
         'data de início' seja definida.
-    - name: periodoFim
+    - name: periodo_fim
       schema:
         type: string
       in: query
@@ -63,10 +60,10 @@ get:
         'data final' seja definida.
   responses:
     '200':
-      description: Sucesso
+      description: Lista de normas
       content:
         application/json:
           schema:
             $ref: ..\components\schemas\Normas.yaml
     '400':
-      description: Missing Required Information
+      description: Erro nos parâmetros.

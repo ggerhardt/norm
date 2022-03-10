@@ -1,4 +1,4 @@
-openapi: 3.0.0
+openapi: 3.0.2
 info:
   title: Normativos do Banco Central
   description: Permite a busca de normativos do Banco Central por diversos parâmetros.
@@ -13,5 +13,5 @@ servers:
   - url: https://www.bcb.gov.br/api/servico/sitebcb/ri
     description: Ambiente de produção
 paths:
-  /normas:
+  /normas/busca:
     $ref: paths/normas.yaml
