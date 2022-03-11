@@ -83,17 +83,112 @@ paths:
                 $ref: '#/components/schemas/Normas'
         '400':
           description: Erro nos parâmetros.
+  /normas/{id}:
+    get:
+      description: Informações sobre uma norma do Banco Central do Brasil
+      summary: Informaçoes de uma norma
+      operationId: getNorma
+      parameters:
+        - name: id
+          schema:
+            type: integer
+          in: path
+          description: Id do documento desejado.
+          required: true
+      responses:
+        '200':
+          description: Informações da norma
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Norma'
+        '400':
+          description: Erro nos parâmetros.
 components:
   schemas:
+    Normas:
+      type: object
+      additionalProperties: false
+      properties:
+        conteudo:
+          type: array
+          items:
+            type: object
+            additionalProperties: false
+            properties:
+              id:
+                type: integer
+                title: Id do documento
+                description: Id interno do documento.
+                example: 128756
+              numero:
+                type: integer
+                title: Número do documento
+                description: Número do documento. Junto com o tipo, compõe o título.
+                example: 38418
+              tipo:
+                type: string
+                title: Tipo do documento. Junto com o número, compõe o título.
+                description: Tipo do documento
+                example: Comunicado
+              titulo:
+                type: string
+                title: Título
+                description: Título do documento
+                example: Comunicado n° 38.418, 9/3/2022
+              dataHora:
+                type: string
+                title: Data da publicação
+                format: date-time
+                description: >-
+                  Data de publicação, com formato conforme especificação
+                  RFC-3339
+                example: '2022-03-09T13:22:14Z'
+              dataHoraTexto:
+                type: string
+                title: Data da publicação
+                description: Data de publicação, com formato d/m/aaaa hh:mm
+                example: 9/3/2022 10:22
+              assunto:
+                type: string
+                title: Assunto
+                description: Descrição do documento publicado
+                example: >-
+                  <div
+                  class="ExternalClass3EC97B0925564B8E8CB062E4E939EC7D">Divulga
+                  nome de pessoas com interesse em participar do controle de
+                  Instituição de Pagamento.
+
+                  </div>
+              unidadeResponsavel:
+                type: string
+                title: Unidade responsável
+                description: Unidade responsável pelo documento
+                example: DEORF
+              revogado:
+                type: boolean
+                title: Revogado
+                description: >-
+                  Indica se o documento está revogado. Se não estiver revogado,
+                  está em vigor.
+              cancelado:
+                type: boolean
+                title: Cancelado
+                description: Indica que o documento foi cancelado.
     Norma:
       type: object
       additionalProperties: false
       properties:
+        id:
+          type: integer
+          title: Id do documento
+          description: Id interno do documento.
+          example: 128756
         numero:
-          type: string
+          type: integer
           title: Número do documento
           description: Número do documento. Junto com o tipo, compõe o título.
-          example: '38418'
+          example: 38418
         tipo:
           type: string
           title: Tipo do documento. Junto com o número, compõe o título.
@@ -104,42 +199,173 @@ components:
           title: Título
           description: Título do documento
           example: Comunicado n° 38.418, 9/3/2022
-        dataHoraPublicacao:
+        dataHora:
           type: string
           title: Data da publicação
           format: date-time
           description: Data de publicação, com formato conforme especificação RFC-3339
-          example: '1937-01-01T12:00:27.87-03:00'
+          example: '2022-03-09T13:22:14Z'
+        dataHoraTexto:
+          type: string
+          title: Data da publicação
+          description: Data de publicação, com formato d/m/aaaa hh:mm
+          example: 9/3/2022 10:22
         assunto:
           type: string
           title: Assunto
           description: Descrição do documento publicado
           example: >-
-            O relatório hode inflação apresenta as diretrizes das políticas
-            adotadas pelo Copom, considerações acerca da evolução recente do
-            cenário econômico e projeções para a inflação. As projeções são
-            apresentadas em cenários com condicionantes para algumas variáveis
-            econômicas. O Copom utiliza um conjunto amplo de modelos e cenários
-            para orientar suas decisões de política monetária. Ao expor alguns
-            desses cenários, o Copom procura dar maior transparência às decisões
-            de política monetária, contribuindo para sua eficácia no controle da
-            inflação, que é seu objetivo precípuo.
+            <div class="ExternalClass3EC97B0925564B8E8CB062E4E939EC7D">Divulga
+            nome de pessoas com interesse em participar do controle de
+            Instituição de Pagamento.
+
+            </div>
         unidadeResponsavel:
           type: string
           title: Unidade responsável
           description: Unidade responsável pelo documento
           example: DEORF
-        situacao:
+        revogado:
+          type: boolean
+          title: Revogado
+          description: >-
+            Indica se o documento está revogado. Se não estiver revogado, está
+            em vigor.
+        cancelado:
+          type: boolean
+          title: Cancelado
+          description: Indica que o documento foi cancelado.
+        texto:
           type: string
-          enum:
-            - Em vigor
-            - Revogado
-          description: Situação do normativo.
-    Normas:
-      type: object
-      additionalProperties: false
-      properties:
-        conteudo:
+          title: Texto do documento
+          description: Texto do documento
+          example: >-
+            <div class="ExternalClass873CBFF09CDF486B857419F9E7174DDC"><p
+            style="margin-right&#58;3px;">Divulgamos que as pessoas físicas
+            abaixo identificadas pretendem participar do controle da sociedade
+            abaixo especificada&#58;<br>
+
+            <br>
+
+            Nome&#58; Pay4Fun Pagamentos S.A.<br>
+
+            CNPJ&#58; 20.757.199/0001-04<br>
+
+            Local da sede&#58; São Paulo / SP<br>
+
+            Controladores (diretos e finais)&#58;<br>
+
+            Marlon Elias Rodrigues Rupe – CPF&#58; 340.521.388-64<br>
+
+            Leonardo Dinacci Baptista – CPF&#58; 280.791.368-74</p>
+
+
+            <p style="margin-right&#58;3px;">Eventuais objeções à participação
+            das pessoas acima referidas no grupo de controle da Pay4Fun
+            Pagamentos S.A., acompanhadas da documentação comprobatória, devem
+            ser apresentadas diretamente ao Banco Central do Brasil, por meio do
+            Protocolo Digital, na forma especificada abaixo, no prazo de quinze
+            dias contados da divulgação deste comunicado, observado que os
+            pretensos controladores têm, na forma da legislação em vigor,
+            direito a vistas do processo respectivo.<br>
+
+            <br>
+
+            Protocolo Digital (disponível na página do Banco Central do Brasil
+            na internet)<br>
+
+            Preencher o campo “Número do Processo Administrativo Eletrônico –
+            PE” com o número 198409<br>
+
+            Selecionar, no campo “Assunto”&#58; Autorizações e Licenciamentos
+            para Instituições Supervisionadas e para Integrantes do SPB<br>
+
+            Selecionar, no campo “Destino”&#58; Deorf – Gerência Técnica em Belo
+            Horizonte (GTBHO)<br>
+
+            <br>
+
+            <br>
+
+            &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;
+            &#160; &#160; &#160; &#160; &#160; &#160; &#160;Carolina Pancotto
+            Borher<br>
+
+            &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;Chefe do
+            Departamento de Organização do Sistema Financeiro</p>
+
+
+            <p>&#160;</p>
+
+
+            <p>&#160;</p>
+
+            </div>
+        dou:
+          type: string
+          title: DOU
+          description: Informação de publicação no Diário Oficial da União
+          example: Publicada no DOU de 27/7/2021, Seção 1, p. 80-82.
+        versaoNormativo:
+          type: string
+          title: Versão do Normativo
+          description: >-
+            Versão do documento. Dependendo do tipo do documento, não existe
+            versionamento
+          example: null
+        normasVinculadas:
           type: array
           items:
-            $ref: '#/components/schemas/Norma'
+            type: object
+            properties:
+              tipo:
+                type: string
+                title: Tipo da norma vinculada
+                description: Tipo da norma vinculada
+                example: INSTRUÇÃO NORMATIVA BCB
+              numero:
+                type: integer
+                title: Número da norma vinculada
+                description: Número da norma vinculada.
+                example: 95
+              ano:
+                type: integer
+                title: Ano da norma vinculada
+                description: Ano da norma vinculada.
+                example: 2021
+        referencias:
+          type: array
+          title: Referências
+          description: Referências do documento.
+          example:
+            - >-
+              Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do BCB),
+              arts. 23, inciso I, \"a\", e 62, inciso IV.","Resolução BCB nº
+              32/2020.
+            - >-
+              Cita Resolução Conjunta BCB/CMN nº 1/2020."."Cita Circular BCB nº
+              4.032/2020.","Revoga Instrução Normativa BCB nº 95/2021.
+          items:
+            type: string
+        atualizacoes:
+          type: array
+          title: Atualizações
+          description: Atualizações do documento.
+          example:
+            - >-
+              Resolução BCB nº 156/2021 - Revogação total, a partir de
+              1º/1/2022.
+          items:
+            type: string
+        arquivos:
+          type: array
+          title: Arquivos
+          description: >-
+            Links para arquivos associados. Algumas normas possuem na norma em
+            pdf. Arquivos terminados em ...
+          example:
+            - >-
+              Resolução BCB nº 156/2021 - Revogação total, a partir de
+              1º/1/2022.
+          items:
+            type: string
