@@ -103,4 +103,11 @@ properties:
       - Resolução BCB nº 156/2021 - Revogação total, a partir de 1º/1/2022.
     items: 
       type: string
-            
+  arquivos:
+    type: array
+    title: Arquivos
+    description: Links para arquivos associados. Algumas normas possuem na norma em pdf. Arquivos terminados em ...
+    example: 
+      - Resolução BCB nº 156/2021 - Revogação total, a partir de 1º/1/2022.
+    items: 
+      type: string
