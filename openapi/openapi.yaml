@@ -14,4 +14,6 @@ servers:
     description: Ambiente de produção
 paths:
   /normas/busca:
-    $ref: paths/normas.yaml
+    $ref: paths/normas_busca.yaml
+  /normas/{id}:
+    $ref: paths/norma.yaml

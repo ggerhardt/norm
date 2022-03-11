@@ -1,0 +1,20 @@
+get:
+  description: Informações sobre uma norma do Banco Central do Brasil
+  summary: Informaçoes de uma norma
+  operationId: getNorma
+  parameters:
+    - name: id
+      schema:
+        type: integer
+      in: path
+      description: Id do documento desejado.
+      required: true
+  responses:
+    '200':
+      description: Informações da norma
+      content:
+        application/json:
+          schema:
+            $ref: ..\components\schemas\Norma.yaml
+    '400':
+      description: Erro nos parâmetros.

@@ -4,4 +4,55 @@ properties:
   conteudo:
     type: array
     items:
-      $ref: .\Norma.yaml
+      type: object
+      additionalProperties: false
+      properties:
+        id:
+          type: integer
+          title: Id do documento
+          description: Id interno do documento.
+          example: 128756
+        numero:
+          type: integer
+          title: Número do documento
+          description: Número do documento. Junto com o tipo, compõe o título.
+          example: 38418
+        tipo:
+          type: string
+          title: Tipo do documento. Junto com o número, compõe o título.
+          description: Tipo do documento
+          example: Comunicado
+        titulo:
+          type: string
+          title: Título
+          description: Título do documento
+          example: Comunicado n° 38.418, 9/3/2022
+        dataHora:
+          type: string
+          title: Data da publicação
+          format: date-time
+          description: Data de publicação, com formato conforme especificação RFC-3339
+          example: '2022-03-09T13:22:14Z'
+        dataHoraTexto:
+          type: string
+          title: Data da publicação
+          description: Data de publicação, com formato d/m/aaaa hh:mm
+          example: '9/3/2022 10:22'
+        assunto:
+          type: string
+          title: Assunto
+          description: Descrição do documento publicado
+          example: "<div class=\"ExternalClass3EC97B0925564B8E8CB062E4E939EC7D\">Divulga nome de pessoas com interesse em participar do controle de Instituição de Pagamento.\n</div>"
+        unidadeResponsavel:
+            type: string
+            title: Unidade responsável
+            description: Unidade responsável pelo documento
+            example: DEORF
+        revogado:
+          type: boolean
+          title: Revogado    
+          description: Indica se o documento está revogado. Se não estiver revogado, está em vigor.
+        cancelado:
+          type: boolean
+          title: Cancelado
+          description: Indica que o documento foi cancelado.
