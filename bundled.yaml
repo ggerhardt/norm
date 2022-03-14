@@ -81,6 +81,255 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Normas'
+              examples:
+                busca:
+                  value:
+                    meta:
+                      totalRows: 31
+                      rowCount: 15
+                    conteudo:
+                      - titulo: Comunicado N° 38.428
+                        dataHoraTexto: 11/3/2022 14:39
+                        unidadeResponsavel: DEORF
+                        id: 128766
+                        tipo: Comunicado
+                        numero: '38428'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T17:39:10Z'
+                        posicao: 0
+                      - titulo: Comunicado N° 38.427
+                        dataHoraTexto: 11/3/2022 10:40
+                        assunto: >-
+                          <div
+                          class="ExternalClassA05E30A7894A451CA5248B61B83F22C5">Divulga,
+                          para fins de recebimento de eventuais objeções, nomes
+                          de pessoas eleitas ou nomeadas para ocupar cargos de
+                          administração em instituições de pagamento</div>
+                        unidadeResponsavel: DEORF
+                        id: 128765
+                        tipo: Comunicado
+                        numero: '38427'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T13:40:10Z'
+                        RefinableString03: Comunicado
+                        posicao: 1
+                      - titulo: Instrução Normativa BCB N° 240
+                        dataHoraTexto: 11/3/2022 10:12
+                        assunto: >-
+                          Divulga procedimentos a respeito da prestação de
+                          informações e ao cálculo da exigibilidade de que trata
+                          a Resolução BCB nº 188, de 23 de fevereiro de 2022,
+                          que define e consolida as regras do recolhimento
+                          compulsório sobre recursos de depósitos de poupança.
+                        unidadeResponsavel: DEBAN
+                        id: 51707
+                        tipo: Instrução Normativa BCB
+                        numero: '240'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T13:12:58Z'
+                        RefinableString03: Instrução Normativa BCB
+                        posicao: 2
+                      - titulo: Comunicado N° 38.426
+                        dataHoraTexto: 11/3/2022 08:42
+                        assunto: >-
+                          <div
+                          class="ExternalClass1CEF29D0728D424C9F0B7D82DB16FC5C">Divulga
+                          a Taxa Básica Financeira (TBF), o Redutor
+                          &quot;R&quot; e a Taxa Referencial (TR) relativos a 10
+                          de março de 2022.</div>
+                        unidadeResponsavel: DEMAB
+                        id: 128764
+                        tipo: Comunicado
+                        numero: '38426'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T11:42:55Z'
+                        RefinableString03: Comunicado
+                        posicao: 3
+                      - titulo: Resolução BCB N° 202
+                        dataHoraTexto: 11/3/2022 07:35
+                        assunto: >-
+                          Estabelece o cálculo da parcela dos ativos ponderados
+                          pelo risco (RWA) relativa ao cálculo do capital
+                          requerido para os riscos associados a serviços de
+                          pagamento (RWASP) estabelecida nas Resoluções BCB ns.
+                          200 e 201, ambas de 11 de março de 2022.
+                        unidadeResponsavel: SECRE
+                        id: 51706
+                        tipo: Resolução BCB
+                        numero: '202'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T10:35:17Z'
+                        RefinableString03: Resolução BCB
+                        posicao: 4
+                      - titulo: Resolução BCB N° 201
+                        dataHoraTexto: 11/3/2022 07:33
+                        assunto: >-
+                          Dispõe sobre a metodologia facultativa simplificada
+                          para apuração do requerimento mínimo de Patrimônio de
+                          Referência Simplificado (PRS5) para os conglomerados
+                          prudenciais classificados como do Tipo 3, sobre os
+                          requisitos para opção por essa metodologia e sobre a
+                          estrutura simplificada de gerenciamento contínuo de
+                          riscos.
+                        unidadeResponsavel: SECRE
+                        id: 51705
+                        tipo: Resolução BCB
+                        numero: '201'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T10:33:47Z'
+                        RefinableString03: Resolução BCB
+                        posicao: 5
+                      - titulo: Resolução BCB N° 200
+                        dataHoraTexto: 11/3/2022 07:32
+                        assunto: >-
+                          Dispõe sobre os requerimentos mínimos de Patrimônio de
+                          Referência (PR), de Nível I e de Capital Principal e
+                          sobre o Adicional de Capital Principal de conglomerado
+                          prudencial classificado como Tipo 3.
+                        unidadeResponsavel: SECRE
+                        id: 51704
+                        tipo: Resolução BCB
+                        numero: '200'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T10:32:59Z'
+                        RefinableString03: Resolução BCB
+                        posicao: 6
+                      - titulo: Resolução BCB N° 199
+                        dataHoraTexto: 11/3/2022 07:32
+                        assunto: >-
+                          Dispõe sobre a metodologia para apuração do Patrimônio
+                          de Referência (PR) para conglomerado prudencial
+                          classificado como Tipo 3.
+                        unidadeResponsavel: SECRE
+                        id: 51703
+                        tipo: Resolução BCB
+                        numero: '199'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T10:32:11Z'
+                        posicao: 7
+                      - titulo: Resolução BCB N° 198
+                        dataHoraTexto: 11/3/2022 07:31
+                        assunto: >-
+                          Dispõe sobre o requerimento mínimo de Patrimônio de
+                          Referência de Instituição de Pagamento (PRIP) de
+                          conglomerado do Tipo 2, nos termos da Resolução BCB nº
+                          197, de 11 de março de 2022, e de instituição de
+                          pagamento não integrante de conglomerado prudencial, e
+                          sobre a metodologia de apuração desses requerimentos e
+                          a respectiva estrutura de gerenciamento contínuo de
+                          riscos.
+                        unidadeResponsavel: SECRE
+                        id: 51702
+                        tipo: Resolução BCB
+                        numero: '198'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T10:31:32Z'
+                        posicao: 8
+                      - titulo: Resolução BCB N° 197
+                        dataHoraTexto: 11/3/2022 07:30
+                        assunto: >-
+                          Classifica o conglomerado prudencial integrado por ao
+                          menos uma instituição que realize serviço de pagamento
+                          e estabelece a segmentação para os conglomerados
+                          prudenciais classificados como Tipo 3 para fins de
+                          aplicação proporcional da regulação prudencial.
+                        unidadeResponsavel: SECRE
+                        id: 51701
+                        tipo: Resolução BCB
+                        numero: '197'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-11T10:30:49Z'
+                        posicao: 9
+                      - titulo: Comunicado N° 38.425
+                        dataHoraTexto: 10/3/2022 18:30
+                        assunto: >-
+                          <div
+                          class="ExternalClass1E452A4DC9CF44FB96E31FAD388EC762">Divulga
+                          condições para a realização de operações
+                          compromissadas com instituições financeiras
+                          participantes do módulo Oferta Pública (Ofpub).</div>
+                        unidadeResponsavel: DEMAB
+                        id: 128763
+                        tipo: Comunicado
+                        numero: '38425'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-10T21:30:44Z'
+                        posicao: 10
+                      - titulo: Comunicado N° 38.424
+                        dataHoraTexto: 10/3/2022 18:30
+                        assunto: >-
+                          <div
+                          class="ExternalClass9374B099DAC947A1A76FF85A0D400E40">Divulga
+                          as condições de oferta pública para a realização de
+                          operações de swap para fins de rolagem do vencimento
+                          de 02/05/2022.</div>
+                        unidadeResponsavel: DEMAB
+                        id: 128762
+                        tipo: Comunicado
+                        numero: '38424'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-10T21:30:01Z'
+                        posicao: 11
+                      - titulo: Comunicado N° 38.423
+                        dataHoraTexto: 10/3/2022 08:33
+                        assunto: >-
+                          <div
+                          class="ExternalClass50DDBFFEDCFE470492D8410EFA0A6D33">Divulga
+                          a Taxa Básica Financeira (TBF), o Redutor
+                          &quot;R&quot; e a Taxa Referencial (TR) relativos a 9
+                          de março de 2022.</div>
+                        unidadeResponsavel: DEMAB
+                        id: 128761
+                        tipo: Comunicado
+                        numero: '38423'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-10T11:33:43Z'
+                        posicao: 12
+                      - titulo: Comunicado N° 38.422
+                        dataHoraTexto: 9/3/2022 18:32
+                        assunto: >-
+                          <div
+                          class="ExternalClass6B2AF54ABE3D4C21B5406593ABE1EC25">Divulga
+                          condições para a realização de operações
+                          compromissadas com instituições financeiras
+                          participantes do módulo Oferta Pública (Ofpub).</div>
+                        unidadeResponsavel: DEMAB
+                        id: 128760
+                        tipo: Comunicado
+                        numero: '38422'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-09T21:32:06Z'
+                        posicao: 13
+                      - titulo: Comunicado N° 38.421
+                        dataHoraTexto: 9/3/2022 18:31
+                        assunto: >-
+                          <div
+                          class="ExternalClass2F3392C121094E5F9EF9AC48320C8B33">Divulga
+                          as condições de oferta pública para a realização de
+                          operações de swap para fins de rolagem do vencimento
+                          de 02/05/2022.</div>
+                        unidadeResponsavel: DEMAB
+                        id: 128759
+                        tipo: Comunicado
+                        numero: '38421'
+                        revogado: '0'
+                        cancelado: '0'
+                        dataHora: '2022-03-09T21:31:26Z'
+                        posicao: 14
         '400':
           description: Erro nos parâmetros.
   /normas/{id}:
@@ -102,6 +351,2946 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Norma'
+              examples:
+                Comunicado:
+                  value:
+                    titulo: Comunicado N° 38.418
+                    tipo: Comunicado
+                    dou: null
+                    id: 128756
+                    dataHora: '2022-03-09T13:22:14Z'
+                    dataHoraTexto: 9/3/2022 10:22
+                    numero: 38418
+                    assunto: >-
+                      <div
+                      class="ExternalClass3EC97B0925564B8E8CB062E4E939EC7D">Divulga
+                      nome de pessoas com interesse em participar do controle de
+                      Instituição de Pagamento.
+
+                      </div>
+                    revogado: false
+                    cancelado: false
+                    texto: >-
+                      <div
+                      class="ExternalClass873CBFF09CDF486B857419F9E7174DDC"><p
+                      style="margin-right&#58;3px;">Divulgamos que as pessoas
+                      físicas abaixo identificadas pretendem participar do
+                      controle da sociedade abaixo especificada&#58;<br>
+
+                      <br>
+
+                      Nome&#58; Pay4Fun Pagamentos S.A.<br>
+
+                      CNPJ&#58; 20.757.199/0001-04<br>
+
+                      Local da sede&#58; São Paulo / SP<br>
+
+                      Controladores (diretos e finais)&#58;<br>
+
+                      Marlon Elias Rodrigues Rupe – CPF&#58; 340.521.388-64<br>
+
+                      Leonardo Dinacci Baptista – CPF&#58; 280.791.368-74</p>
+
+
+                      <p style="margin-right&#58;3px;">Eventuais objeções à
+                      participação das pessoas acima referidas no grupo de
+                      controle da Pay4Fun Pagamentos S.A., acompanhadas da
+                      documentação comprobatória, devem ser apresentadas
+                      diretamente ao Banco Central do Brasil, por meio do
+                      Protocolo Digital, na forma especificada abaixo, no prazo
+                      de quinze dias contados da divulgação deste comunicado,
+                      observado que os pretensos controladores têm, na forma da
+                      legislação em vigor, direito a vistas do processo
+                      respectivo.<br>
+
+                      <br>
+
+                      Protocolo Digital (disponível na página do Banco Central
+                      do Brasil na internet)<br>
+
+                      Preencher o campo “Número do Processo Administrativo
+                      Eletrônico – PE” com o número 198409<br>
+
+                      Selecionar, no campo “Assunto”&#58; Autorizações e
+                      Licenciamentos para Instituições Supervisionadas e para
+                      Integrantes do SPB<br>
+
+                      Selecionar, no campo “Destino”&#58; Deorf – Gerência
+                      Técnica em Belo Horizonte (GTBHO)<br>
+
+                      <br>
+
+                      <br>
+
+                      &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;
+                      &#160; &#160; &#160; &#160; &#160; &#160; &#160;
+                      &#160;Carolina Pancotto Borher<br>
+
+                      &#160; &#160; &#160; &#160; &#160; &#160; &#160;
+                      &#160;Chefe do Departamento de Organização do Sistema
+                      Financeiro</p>
+
+
+                      <p>&#160;</p>
+
+
+                      <p>&#160;</p>
+
+                      </div>
+                    voto: null
+                Carta Circular:
+                  value:
+                    id: 51104
+                    titulo: Carta Circular N° 4.074
+                    tipo: Carta Circular
+                    arquivos:
+                      - >-
+                        https://www.bcb.gov.br/content/normativos/C_Circ_4074_v1_O.pdf
+                      - >-
+                        https://www.bcb.gov.br/content/normativos/C_Circ_4074_v2_L.pdf
+                    dou: Publicada no DOU de 29/7/2020, Seção 1, p. 35-37.
+                    dataHora: '2020-07-24T21:10:00Z'
+                    dataHoraTexto: 24/7/2020 18:10
+                    numero: 4074
+                    versaoNormativo: 0
+                    assunto: >-
+                      Estabelece procedimentos relativos ao envio de documentos
+                      e informações, de respostas a exigências e de interposição
+                      de recursos, à formalização de exigências, à comunicação
+                      da decisão e às demais comunicações relacionadas com a
+                      instrução e com o exame de processos de autorização
+                      conduzidos pelo Departamento de Organização do Sistema
+                      Financeiro (Deorf), e dá outras providências.
+                    normasVinculadas:
+                      - tipo: INSTRUÇÃO NORMATIVA BCB
+                        numero: 77
+                        ano: 2021
+                      - tipo: CARTA CIRCULAR
+                        numero: 4038
+                        ano: 2020
+                    referencias:
+                      - >-
+                        Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do
+                        BCB), art. 23, inciso I, "a".
+                      - Lei nº 9.784/1999, art. 40.
+                      - >-
+                        Revoga, a partir de 3/8/2020, Carta Circular BCB nº
+                        4.038/2020.
+                    atualizacoes:
+                      - >-
+                        Instrução Normativa BCB nº 77/2021 - Revogação total, a
+                        partir de 1º/3/2021.
+                    revogado: true
+                    cancelado: false
+                    texto: >-
+                      <div
+                      class="ExternalClassB2272F0B2BBB404F8C016F65F8281B09">
+
+
+
+
+
+                      <style>
+
+                      </style>
+
+
+
+
+
+
+                      <div class="WordSection1">
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;18.0pt;text-align&#58;center;line-height&#58;normal;"
+                      align="center"><span style="font-size&#58;12.0pt;">CARTA
+                      CIRCULAR Nº 4.074, DE
+
+                      24 DE JULHO DE 2020</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-top&#58;0cm;margin-right&#58;0cm;margin-bottom&#58;6.0pt;margin-left&#58;212.65pt;text-align&#58;justify;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Estabelece procedimentos
+                      relativos ao envio de
+
+                      documentos e informações, de respostas a exigências e de
+                      interposição de
+
+                      recursos, à formalização de exigências, à comunicação da
+                      decisão e às demais
+
+                      comunicações relacionadas com a instrução e com o exame de
+                      processos de
+
+                      autorização conduzidos pelo Departamento de Organização do
+                      Sistema Financeiro
+
+                      (Deorf), e dá outras providências.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">O Chefe do
+
+                      Departamento de Organização do Sistema Financeiro (Deorf),
+                      no uso da atribuição
+
+                      que lhe confere o art. 23, inciso I, alínea “a”, do
+                      Regimento Interno do Banco
+
+                      Central do Brasil, anexo à Portaria nº 84.287, de 27 de
+                      fevereiro de 2015, e
+
+                      tendo em conta o disposto no art. 40 da Lei nº 9.784, de
+                      29 de janeiro de 1999,</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">R E S O L V E
+                      &#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><b><span
+                      style="font-size&#58;12.0pt;">Procedimentos para
+
+                      instrução de pleitos, respostas a exigências e
+                      interposição de recursos</span></b></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 1º &#160;As
+
+                      instituições financeiras, as demais instituições
+                      autorizadas a funcionar pelo
+
+                      Banco Central do Brasil e as instituições integrantes do
+                      Sistema de Pagamentos
+
+                      Brasileiro (SPB), para fins de instrução dos processos de
+                      autorização cuja
+
+                      análise técnica seja conduzida pelo Departamento de
+                      Organização do Sistema
+
+                      Financeiro (Deorf), devem encaminhar, por meio do sistema
+                      Protocolo Digital do
+
+                      Banco Central (Protocolo Digital), disponível no sítio
+                      desta Autarquia na
+
+                      internet&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - os documentos e
+
+                      as informações previstos na regulamentação pertinente;
+                      e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - as respostas às
+
+                      exigências e os recursos interpostos em razão do
+                      indeferimento dos pleitos.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Parágrafo único. &#160;As
+
+                      respostas às exigências e os recursos interpostos, de que
+                      trata o inciso II
+
+                      deste artigo, quando não acompanhados por documentos
+                      anexos, devem ser
+
+                      encaminhados por meio do Sistema de Correio Eletrônico do
+                      Banco Central (BC
+
+                      Correio) e fazer referência ao ofício que tiver
+                      formalizado a exigência ou que
+
+                      tiver comunicado a decisão, nos termos do art. 8º, e ao
+                      número do Processo
+
+                      Administrativo Eletrônico (PE) instaurado para a análise
+                      do pleito.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 2º &#160;O acesso ao
+
+                      Protocolo Digital deve ser realizado por meio da conta de
+                      usuário institucional
+
+                      cadastrada no Sistema de Informações Banco Central
+                      (Sisbacen).</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Parágrafo único. &#160;Na
+
+                      hipótese de instrução de pleitos de autorização para
+                      funcionamento, o acesso
+
+                      deve ser realizado por meio de conta de usuário pessoa
+                      física obtida por
+
+                      autocredenciamento no Sistema Registrato - Extrato do
+                      Registro de Informações
+
+                      do Banco Central.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 3º &#160;Os
+
+                      documentos e as informações devem ser protocolados
+                      individualmente e na ordem
+
+                      em que estiverem apresentados&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - na lista de
+
+                      documentos e informações necessários à instrução de
+                      processos, constante do
+
+                      modelo de requerimento relativo ao tipo de pleito a ser
+                      apresentado, de que
+
+                      trata o Título 8 do Manual de Organização do Sistema
+                      Financeiro (Sisorf),
+
+                      disponível para acesso na página do Banco Central do
+                      Brasil na internet;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - no ofício de
+
+                      exigências formalizadas pelo Deorf;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">III - no texto do
+
+                      recurso.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 1º &#160;Os documentos e
+
+                      as informações relacionados ao mesmo pleito devem ser
+                      associados ao
+
+                      requerimento ou, no caso de resposta a exigências ou de
+                      recurso, ao primeiro
+
+                      documento protocolado, mediante a utilização da
+                      funcionalidade de associação
+
+                      disponível no Protocolo Digital.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 2º &#160;Na hipótese de
+
+                      o pleito a ser apresentado não contar com modelo de
+                      requerimento estabelecido
+
+                      pelo Sisorf, os documentos e as informações deverão ser
+                      protocolados na ordem
+
+                      em que estiverem apresentados na regulamentação pertinente
+                      ao tipo de pleito.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 4º &#160;O envio dos
+
+                      documentos e informações deve ser realizado mediante o
+                      preenchimento dos
+
+                      seguintes campos da tela inicial do Protocolo
+                      Digital&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - “Descrição”;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - “Número do
+
+                      Processo Administrativo Eletrônico - PE”, se
+                      houver;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">III - “Assunto”;
+                      e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">IV - “Destino”.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 1º &#160;No caso de
+
+                      instrução inicial de pleitos de autorização para
+                      funcionamento, o campo
+
+                      “Descrição” deve ser preenchido&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - para o
+
+                      requerimento, primeiro documento a ser protocolado, com os
+                      componentes&#58;
+
+                      “Instituição – Tipo de pleito”; e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - para os demais
+
+                      documentos associados ao pleito, protocolados em
+                      sequência, com os componentes&#58;
+
+                      “Instituição – Tipo de documento – Nome da pessoa física
+                      (se aplicável)”.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 2º &#160;No caso de
+
+                      instrução inicial dos demais tipos de pleito, o campo
+                      “Descrição” deve ser
+
+                      preenchido&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - para o
+
+                      requerimento, primeiro documento a ser protocolado, com os
+                      componentes&#58; “CNPJ –
+
+                      Instituição – Dados do Ato Societário – Tipo de pleito”;
+                      e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - para os demais
+
+                      documentos associados ao pleito, protocolados em
+                      sequência, com os componentes&#58;
+
+                      “CNPJ – Tipo de documento – Nome da pessoa física (se
+                      aplicável)”.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 3º &#160;Na apresentação
+
+                      de resposta a exigências ou de recurso, o campo
+                      “Descrição” deve ser
+
+                      preenchido&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - para o primeiro
+
+                      documento a ser protocolado, com os componentes&#58; “CNPJ
+                      (se houver) –
+
+                      Instituição – Conteúdo”; e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - para os demais
+
+                      documentos associados, protocolados em sequência, com os
+                      componentes&#58; “CNPJ
+
+                      (ou, na falta deste, &quot;Instituição&quot;) – Tipo de
+                      documento – Nome da
+
+                      pessoa física (se aplicável)”.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 4º &#160;Para compor o
+
+                      campo “Descrição”, referido neste artigo, a instituição ou
+                      seu representante
+
+                      deve considerar que o componente&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - “CNPJ”
+
+                      corresponde ao número de inscrição (oito primeiros
+                      dígitos) da instituição
+
+                      titular do pleito no Cadastro Nacional de Pessoa Jurídica
+                      (CNPJ), com o formato
+
+                      nn.nnn.nnn;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - “Instituição”
+
+                      corresponde&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">a) ao nome fantasia
+
+                      ou à sigla ou à denominação social pretendida pela
+                      instituição pleiteante, no
+
+                      caso dos pleitos referidos no § 1º deste artigo, com
+                      exceção das instituições
+
+                      de pagamento e dos instituidores de arranjos de pagamento,
+                      que devem observar o
+
+                      disposto na alínea “b” deste inciso; ou</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">b) ao nome fantasia
+
+                      ou à sigla ou à denominação social da instituição titular
+                      do pleito, nos demais
+
+                      casos;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">III - “Dados do ato
+
+                      societário” corresponde, quando aplicável, à sigla e à
+                      data do ato societário
+
+                      que estiver relacionado ao pleito apresentado;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">IV - “Tipo de pleito”
+
+                      corresponde ao tipo de pleito de autorização apresentado,
+                      conforme especificado
+
+                      na Seção 3.4.20 do Sisorf;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">V - “Conteúdo”
+
+                      corresponde, quando aplicável, à indicação de que o
+                      documento encaminhado se
+
+                      refere à resposta a uma exigência ou a um
+                      recurso;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">VI - “Tipo de
+
+                      documento” corresponde ao resumo do texto descritivo dos
+                      documentos e
+
+                      informações necessários à instrução de processos
+                      relacionados na lista
+
+                      constante do modelo de requerimento de que trata o Título
+                      8 do Sisorf, relativo
+
+                      ao tipo de pleito a ser apresentado, observado o disposto
+                      no § 2º do art. 3º,
+
+                      ou do ofício de exigências formalizadas pelo Deorf ou do
+                      texto do recurso,
+
+                      conforme o caso; e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">VII - “Nome da pessoa
+
+                      física” corresponde ao nome da pessoa física relacionada
+                      ao documento, no caso
+
+                      de documentos e informações relativos a integrantes do
+                      grupo de controle, a
+
+                      detentores de participação qualificada ou a pessoas
+                      eleitas ou nomeadas para o
+
+                      exercício de cargo em órgão societário.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 5º &#160;O campo
+
+                      “Assunto” deve ser preenchido mediante a seleção da opção
+                      “Autorizações e
+
+                      Licenciamentos para Instituições Supervisionadas e para
+                      Integrantes do SPB”.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 6º &#160;O campo
+
+                      “Destino” deve ser preenchido mediante a seleção do
+                      componente organizacional
+
+                      do Deorf ao qual o pleito deve ser apresentado, conforme
+                      relação disponível na
+
+                      Subseção 3.4.30.12 do Sisorf.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 7º &#160;Os exemplos e
+
+                      os padrões a serem observados para preenchimento do campo
+                      “Descrição” constam
+
+                      do Anexo I a esta Carta Circular.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 5º &#160;Os processos
+
+                      cuja instrução, inclusive no que se refere às respostas às
+                      exigências
+
+                      formalizadas, tenha sido protocolizada de forma
+                      incompleta, intempestiva ou em
+
+                      desacordo com o formato exigido, estarão sujeitos a
+                      arquivamento, consideradas
+
+                      as particularidades do caso concreto.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Parágrafo único. &#160;O
+
+                      disposto neste artigo também pode ser aplicado quando
+                      apurada alguma das
+
+                      seguintes ocorrências&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - documentos e
+
+                      informações protocolados em desacordo ao exposto nos
+                      artigos 2º, 3º e 4º desta
+
+                      Carta Circular;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - não envio ou
+
+                      envio incorreto ou incompleto dos modelos de requerimento,
+                      de declaração, de
+
+                      autorização e de formulário cadastral, disponíveis no
+                      Sisorf;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">III - ausência de
+
+                      registros ou registros incorretos no Sistema de
+                      Informações de Interesse do
+
+                      Banco Central (Unicad);</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">IV - não recebimento
+
+                      de mensagem encaminhada pelo Deorf na forma do art. 8º, em
+                      até 5 dias úteis,
+
+                      contados da data de sua emissão;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">V - não envio dos
+
+                      arquivos de Estatutos ou Contratos Sociais no formato
+                      “.rtf” por meio do
+
+                      Sistema de Transferência de Arquivos (STA);</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">VI - não envio ou
+
+                      envio incorreto ou incompleto do Mapa de Composição de
+                      Capital, por meio do
+
+                      STA; ou</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">VII - não envio das
+
+                      planilhas eletrônicas com informações para a análise da
+                      viabilidade
+
+                      econômica-financeira do empreendimento
+                      pretendido.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 6º
+                      &#160;Excepcionalmente,
+
+                      nos pleitos em que for necessário o envio de planilhas ou
+                      outros tipos de
+
+                      arquivos, não suportados pelo Protocolo Digital, a pessoa
+                      ou instituição deve
+
+                      entrar em contato com a Subunidade do Deorf à qual a
+                      instituição está
+
+                      jurisdicionada, conforme relação disponível na Subseção
+                      3.4.30.12 do Sisorf.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 7º &#160;Em caso de
+
+                      indisponibilidade, ou qualquer outro problema técnico no
+                      Protocolo Digital, a pessoa
+
+                      ou instituição deve contatar a Central de Atendimento de
+                      TIC do BCB, pelo
+
+                      telefone (61) 3414-2156 ou pelo e-mail <span
+                      class="MsoHyperlink"><span
+                      style="font-family&#58;&quot;Calibri&quot;,sans-serif;"><a
+                      href="mailto&#58;suporte.ti@bcb.gov.br">suporte.ti@bcb.gov.br</a></span></span>.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><b><span
+                      style="font-size&#58;12.0pt;">Procedimentos para
+
+                      formalização de exigências, comunicação de decisões e de
+                      comunicações em geral
+
+                      pelo Deorf</span></b></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 8º &#160;A
+
+                      formalização de exigências, a comunicação da decisão
+                      tomada e as demais
+
+                      comunicações relacionadas com a instrução e com o exame de
+                      processos de
+
+                      autorização conduzidos pelo Deorf serão realizadas
+                      mediante ofício assinado
+
+                      digitalmente por servidor competente e
+                      encaminhado&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - à instituição
+
+                      requerente, por mensagem do BC Correio, no caso de
+                      processos em que o titular
+
+                      do pleito seja instituição autorizada a funcionar pelo
+                      Banco Central do Brasil;
+
+                      e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - ao endereço
+
+                      eletrônico (e-mail) das seguintes pessoas físicas, com
+                      indicação do <i>link</i>
+
+                      por intermédio do qual deve ser acessado na página do
+                      Protocolo Digital, quando
+
+                      se tratar de formalização de exigências&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">a) do representante
+
+                      da requerente, do(s) pretenso(s) controlador(es), do(s)
+                      pretenso(s)
+
+                      detentor(es) de participação qualificada, do(s) eleito(s)
+                      ou nomeado(s) para
+
+                      cargo em órgão estatutário ou contratual ou de outras
+                      pessoas físicas, no caso
+
+                      de instituição requerente de autorização para
+                      funcionamento; e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">b) das pessoas
+
+                      referidas na alínea “a”, do(s) controladores, do(s)
+                      detentor(es) de
+
+                      participação qualificada, do(s) eleito(s) ou nomeado(s)
+                      para cargo em órgão
+
+                      estatutário ou contratual, do(s) membro(s) de órgão
+                      estatutário ou contratual
+
+                      ou de outras pessoas físicas, no caso de instituição
+                      autorizada a funcionar
+
+                      pelo Banco Central do Brasil.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 1º &#160;As comunicações
+
+                      às instituições que não possuam acesso ao BC Correio serão
+                      realizadas na forma
+
+                      mencionada no inciso II, alínea “b”, do <b>caput</b> deste
+                      artigo.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 2º &#160;O envio do
+                      <i>link</i>
+
+                      de que trata o inciso II do <b>caput</b> deste artigo
+                      somente será realizado
+
+                      para o e-mail das pessoas físicas que tiverem realizado o
+                      autocredenciamento no
+
+                      Registrato.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 3º &#160;O ofício
+
+                      referido no <b>caput </b>deste artigo deve&#58;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">I - ter como anexo o
+
+                      estatuto ou contrato social aprovado, na hipótese de haver
+                      sido deliberada
+
+                      reforma estatutária ou alteração contratual; e</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">II - conter a relação
+
+                      dos eleitos ou nomeados cujos nomes tenham sido aprovados
+                      para exercer cargo em
+
+                      órgão estatutário ou contratual, no caso de pleitos
+                      relativos à eleição ou à
+
+                      nomeação dessas pessoas.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">§ 4º&#160; A critério do
+
+                      Deorf, as exigências e as demais comunicações referidas no
+                      <b>caput</b> deste
+
+                      artigo poderão ser formalizadas exclusivamente por
+                      mensagem no BC Correio, sem
+
+                      envio de ofício.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><b><span
+                      style="font-size&#58;12.0pt;">Disposições gerais
+
+                      e transitórias</span></b></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 9º &#160;O
+
+                      remanejamento de membros de órgãos societários deve ser
+                      comunicado ao Deorf por
+
+                      meio do BC Correio, informando os dados do ato societário
+                      correspondente.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 10. &#160;Fica
+
+                      revogada a Carta Circular nº 4.038, de 29 de abril de
+                      2020.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;36.0pt;text-align&#58;justify;text-indent&#58;70.9pt;line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Art. 11. &#160;Esta Carta
+
+                      Circular entra em vigor em 3 de agosto de 2020.</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="text-align&#58;center;line-height&#58;normal;"
+                      align="center"><span style="font-size&#58;12.0pt;">José
+                      Reynaldo de Almeida Furlani</span></p>
+
+
+                      <b><span
+                      style="font-size&#58;12.0pt;font-family&#58;&quot;Calibri&quot;,sans-serif;"><br
+                      style="page-break-before&#58;always;" clear="all">
+
+                      </span></b>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;8.0pt;line-height&#58;normal;"><b><span
+                      style="font-size&#58;12.0pt;">&#160;</span></b></p>
+
+
+                      <p class="MsoNormal"
+                      style="text-align&#58;center;line-height&#58;normal;"
+                      align="center"><b><span
+                      style="font-size&#58;12.0pt;">Anexo I</span></b><span
+                      style="font-size&#58;12.0pt;"><br>
+
+                      <br>
+
+                      </span></p>
+
+
+                      <p class="MsoNormal"
+                      style="line-height&#58;normal;"><b><span
+                      style="font-size&#58;12.0pt;">Exemplos
+
+                      de Descrição de documentos para instrução de
+                      processos&#58;</span></b></p>
+
+
+                      <p class="MsoNormal" style="line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">Seguem
+
+                      abaixo exemplos de forma de preenchimento do campo
+                      “Descrição” da tela do
+
+                      Protocolo Digital, para cada documento protocolado,
+                      conforme disposto no art.
+
+                      4º desta Carta Circular, apresentados na seguinte
+                      ordem&#58;<br>
+
+                      1. Autorização para funcionamento de Banco Múltiplo;<br>
+
+                      2. Autorização para funcionamento de Sociedade de Crédito
+                      Direto;<br>
+
+                      3. Autorização para funcionamento de Instituição de
+                      Pagamento;<br>
+
+                      4. Aprovação de eleição e de reforma estatutária;<br>
+
+                      5. Aprovação de aumento de capital;<br>
+
+                      6. Resposta a exigência;<br>
+
+                      7. Interposição de recurso.<br>
+
+                      <br>
+
+                      <b>Exemplo 1&#58;<br>
+
+                      <br>
+
+                      Tipo do pleito&#58; </b>Autorização para funcionamento de
+                      Banco Múltiplo<br>
+
+                      <b>Modelo Sisorf 8.1.10.44&#58; </b>REQUERIMENTO -
+                      MANIFESTAÇÃO FAVORÁVEL À
+
+                      PROPOSTA DE EMPREENDIMENTO RELATIVO À CONSTITUIÇÃO DE
+                      INSTITUIÇÃO<br>
+
+                      <b>Denominação social pretendida pela instituição
+                      pleiteante&#58;</b> Banco ABCD
+
+                      S.A.<br>
+
+                      <b>Nome fantasia ou sigla pretendida&#58; </b>Banco
+                      ABCD<br>
+
+                      <b>Nome do controlador ou detentor de participação
+                      qualificada&#58; </b>“José Abcd”<br>
+
+                      <br>
+
+                      Campo “<b>Descrição</b>” de cada documento&#58;<br>
+
+                      <br>
+
+                      1. Requerimento, primeiro documento a ser
+                      protocolado&#58;<br>
+
+                      &#160; <b>“Banco ABCD – Autorização para
+                      funcionamento”;</b><br>
+
+                      2. Demais documentos vinculados ou associados ao primeiro
+                      documento, constantes
+
+                      no requerimento&#58;<br>
+
+                      a)<b> “BANCO ABCD – Identificação dos controladores e
+                      detentores de
+
+                      participação qualificada”;</b><br>
+
+                      b)<b> “BANCO ABCD – Minuta da declaração de
+                      propósito”;</b><br>
+
+                      c)<b> “BANCO ABCD – Indicação forma de controle
+                      societário”;</b><br>
+
+                      d)<b> “BANCO ABCD – Sumário executivo”;</b><br>
+
+                      e)<b> “BANCO ABCD – Declaração – José Abcd”;</b><br>
+
+                      f)<b> “BANCO ABCD – Demonstração do conhecimento do
+                      negócio – José Abcd”;</b><br>
+
+                      g)<b> “BANCO ABCD – Origem dos recursos”;</b><br>
+
+                      h)<b> “BANCO ABCD – Autorização à Receita Federal – José
+                      Abcd”;</b><br>
+
+                      i)<b> “BANCO ABCD – Autorização ao Banco Central – José
+                      Abcd”;</b><br>
+
+                      j)<b> “BANCO ABCD – Autoridade estrangeira”;</b><br>
+
+                      k)<b> “BANCO ABCD – Formulário cadastral – José
+                      Abcd”;</b><br>
+
+                      l)<b> “BANCO ABCD – Organograma”</b></span></p>
+
+
+                      <p class="MsoNormal" style="line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;">&#160;</span></p>
+
+
+                      <p class="MsoNormal"
+                      style="line-height&#58;normal;"><b><span
+                      style="font-size&#58;12.0pt;">&#160;Exemplo
+
+                      2&#58;<br>
+
+                      <br>
+
+                      Tipo do pleito&#58; </span></b><span
+                      style="font-size&#58;12.0pt;">Autorização para
+
+                      funcionamento de Sociedade de Crédito Direto<br>
+
+                      <b>Modelo Sisorf 8.1.10.66&#58; </b>REQUERIMENTO DE
+                      AUTORIZAÇÃO PARA FUNCIONAMENTO
+
+                      DE SOCIEDADE DE CRÉDITO DIRETO OU DE SOCIEDADE DE
+                      EMPRÉSTIMO ENTRE PESSOAS<br>
+
+                      <b>Denominação social pretendida pela instituição
+                      pleiteante&#58; </b>ABCD
+
+                      Sociedade de Crédito Direto S.A.<br>
+
+                      <b>Nome fantasia ou sigla pretendida&#58; </b>ABCD SCD<br>
+
+                      <b>Nome do controlador ou detentor de participação
+                      qualificada&#58; </b>“José Abcd”<br>
+
+                      <b>Nome do Diretor eleito&#58; “</b>João Abc”<br>
+
+                      <br>
+
+                      Campo “<b>Descrição</b>” de cada documento&#58;<br>
+
+                      <br>
+
+                      1. Requerimento, primeiro documento a ser
+                      protocolado&#58;<br>
+
+                      &#160; <b>“ABCD SCD – Autorização para
+                      funcionamento”;</b><br>
+
+                      2. Demais documentos vinculados ou associados ao primeiro
+                      documento, constantes
+
+                      no requerimento&#58;<br>
+
+                      a) <b>“ABCD SCD – AGC de DD/MM/AAAA”;</b><br>
+
+                      b) <b>“ABCD SCD – Lista de subscrição”;</b><br>
+
+                      c) <b>“ABCD SCD – Justificativa fundamentada”;</b><br>
+
+                      d) <b>“ABCD SCD – Identificação integrantes grupo controle
+                      e detentores de
+
+                      participação qualificada”;</b><br>
+
+                      e) <b>“ABCD SCD – Formulário Cadastral - José
+                      Abcd”;</b><br>
+
+                      f) <b>“ABCD SCD – Declaração – José Abcd”;</b><br>
+
+                      g) <b>“ABCD SCD – Origem dos recursos”;</b><br>
+
+                      h) <b>“ABCD SCD – Balanço patrimonial”;</b><br>
+
+                      i) <b>“ABCD SCD – IRPF - José Abcd”;</b><br>
+
+                      j) <b>“ABCD SCD - Indicação forma de controle
+                      societário”;</b><br>
+
+                      k) <b>“ABCD SCD – Autorização à Receita Federal – José
+                      Abcd”;</b><br>
+
+                      l) <b>“ABCD SCD – Autorização ao Banco Central – José
+                      Abcd”;</b><br>
+
+                      m) <b>“ABCD SCD – Organograma”;</b><br>
+
+                      n) <b>“ABCD SCD – Autoridade estrangeira”;</b><br>
+
+                      o) <b>“ABCD SCD – Informações sobre o fundo de
+                      investimento”;</b><br>
+
+                      p) <b>“ABCD SCD – Acordo de acionistas”;</b><br>
+
+                      q) <b>“ABCD SCD – Contrato de usufruto”;</b><br>
+
+                      r)<b> “ABCD SCD – Declaração e autorizações – João
+                      Abcd”;</b><br>
+
+                      s) <b>“ABCD SCD – Declaração capacitação técnica – João
+                      Abcd”;</b><br>
+
+                      t) <b>“ABCD SCD – Currículo – João Abcd”.
+                      &#160;</b></span></p>
+
+
+                      <p class="MsoNormal" style="line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;"><br>
+
+                      <b>Exemplo 3&#58;<br>
+
+                      <br>
+
+                      Tipo do pleito&#58; </b>Autorização para funcionamento de
+                      Instituição de Pagamento<br>
+
+                      <b>Modelo Sisorf - 8.13.10.15&#58; </b>REQUERIMENTO DE
+                      AUTORIZAÇÃO PARA
+
+                      FUNCIONAMENTO DE INSTITUIÇÃO DE PAGAMENTO<br>
+
+                      <b>Denominação social da instituição&#58; “</b>Exemplo
+                      Serviços de Pagamento S.A.”<br>
+
+                      <b>Nome fantasia ou sigla&#58; </b>“Exemplo IP”<br>
+
+                      <b>CNPJ&#58; </b>99.999.999/9999-99<br>
+
+                      <b>Ato Societário&#58; </b>Assembleia Geral Extraordinária
+                      de DD/MM/AAAA<br>
+
+                      <b>Identificação integrantes grupo de controle e
+                      detentores de participação
+
+                      qualificada&#58; </b>“José Abcd”, “João Xyz” e “Carlos
+                      Wyz”<br>
+
+                      <b>Nome do administrador&#58; </b>“Maria Abcd”<br>
+
+                      <br>
+
+                      Campo “Descrição” de cada documento&#58;<br>
+
+                      <br>
+
+                      1. Requerimento, primeiro documento a ser
+                      protocolado&#58;<br>
+
+                      <b>&#160; “Exemplo IP – Autorização para
+                      Funcionamento”</b><br>
+
+                      2.<b> </b>Demais documentos vinculados ou associados ao
+                      primeiro documento,
+
+                      constantes no requerimento&#58;<br>
+
+                      a) <b>“Exemplo IP – Justificativa fundamentada”;</b><br>
+
+                      b)<b> “Exemplo IP – Identificação integrantes grupo
+                      controle e detentores de
+
+                      participação qualificada”;</b><br>
+
+                      c)<b> “Exemplo IP – Formulário Cadastral - José
+                      Abcd”;</b><br>
+
+                      d)<b> “Exemplo IP – Formulário Cadastral - João
+                      Xyz”;</b><br>
+
+                      e)<b> “Exemplo IP – Formulário Cadastral - &#160;Carlos
+                      Wyz”;</b><br>
+
+                      f)<b> “Exemplo IP – Declaração - &#160;José Abcd”;</b><br>
+
+                      g)<b> “Exemplo IP – Declaração - João Xyz”;</b><br>
+
+                      h)<b> “Exemplo IP – Declaração - Carlos Wyz”;</b><br>
+
+                      i)<b> “Exemplo IP – Organograma”;</b><br>
+
+                      j)<b> “Exemplo IP – Indicação forma de controle
+                      societário”;</b><br>
+
+                      k)<b> “Exemplo IP – Acordo de acionistas”;</b><br>
+
+                      l) <b>“Exemplo IP – Contrato de usufruto”;</b><br>
+
+                      m)<b> “Exemplo IP – Autorizações - &#160;José
+                      Abcd”;</b><br>
+
+                      n) <b>“Exemplo IP – Autorizações - &#160;João
+                      Xyz”;</b><br>
+
+                      o)<b> “Exemplo IP – Autorizações - &#160;Carlos
+                      Wyz”;</b><br>
+
+                      p)<b> “Exemplo IP – Autorizações da sociedade ”;</b><br>
+
+                      q)<b> “Exemplo IP – Demonstrações financeiras
+                      controlador”;</b><br>
+
+                      r) <b>“Exemplo IP – IRPF - José Abcd”;</b><br>
+
+                      s)<b> “Exemplo IP – IRPF - João Xyz”;</b><br>
+
+                      t)<b> “Exemplo IP – IRPF - Carlos Wyz”;</b><br>
+
+                      u) <b>“Exemplo IP – Demonstrações financeiras IP”;</b><br>
+
+                      v)<b> “Exemplo IP – Autoridade estrangeira“;</b><br>
+
+                      w) <b>“Exemplo IP – Estatuto social”;</b><br>
+
+                      x)<b> “Exemplo IP – AGE de DD/MM/AAAA”;</b><br>
+
+                      y)<b> “Exemplo IP – Declaração e autorizações – Maria
+                      Abcd”</b><br>
+
+                      z)<b> “Exemplo IP – Declaração capacitação técnica – Maria
+                      Abcd”;</b><br>
+
+                      aa)<b> “Exemplo IP – Currículo – Maria Abcd”;</b><br>
+
+                      bb)<b> “Exemplo IP – Edital de convocação”;</b><br>
+
+                      cc)<b> “Exemplo IP – AGE de DD/MM/AAAA”;</b><br>
+
+                      dd)<b> “Exemplo IP – Lista de subscrição”;</b><br>
+
+                      ee)<b> “Exemplo IP – comprovante de depósito
+                      bancário”;</b><br>
+
+                      ff)<b> “Exemplo IP – comprovação origem de recursos - José
+                      Abcd”;</b><br>
+
+                      gg)<b> “Exemplo IP – comprovação origem de recursos -
+                      &#160;João Xyz”;</b><br>
+
+                      hh)<b> “Exemplo IP – comprovação origem de recursos -
+                      &#160;Carlos Wyz”;</b><br>
+
+                      ii)<b> “Exemplo IP – Volume de transações de
+                      pagamento”.</b></span></p>
+
+
+                      <p class="MsoNormal" style="line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;"><br>
+
+                      <b>Exemplo 4&#58;<br>
+
+                      <br>
+
+                      Tipo do pleito&#58; </b>Eleição e Reforma Estatutária<br>
+
+                      <b>Modelo Sisorf 8.2.10.2&#58;</b> REQUERIMENTO DE
+                      APROVAÇÃO DE ELEIÇÃO E DE
+
+                      REFORMA ESTATUTÁRIA EM COOPERATIVA DE CRÉDITO<br>
+
+                      <b>Denominação social da Instituição&#58;</b> “Coopexemplo
+                      - Cooperativa de economia
+
+                      e crédito mútuo dos empregados da Exemplo S.A.”<br>
+
+                      <b>Nome fantasia ou sigla&#58; </b>“Coopexemplo”<br>
+
+                      <b>CNPJ</b>&#58; 99.999.999/9999-99<br>
+
+                      <b>Ato Societário&#58; </b>Assembleia Geral Ordinária e
+                      Extraordinária de
+
+                      DD/MM/AAAA<br>
+
+                      <b>Nome do Diretor eleito&#58; “</b>Maria Abcd”<br>
+
+                      <b>Nomes Conselheiros Fiscais eleitos&#58; &#160;</b><br>
+
+                      “José Abcd”, “João Xyz” e “Carlos Wyz”<br>
+
+                      <br>
+
+                      Campo “<b>Descrição</b>” de cada documento&#58;<br>
+
+                      <br>
+
+                      1. Requerimento, primeiro documento a ser
+                      protocolado&#58;<br>
+
+                      &#160; <b>“99.999.999 – Coopexemplo – AGO/E de DD/MM/AAAA
+                      – Eleição e reforma
+
+                      estatutária”</b><br>
+
+                      2.<b> </b>Demais documentos vinculados ou associados ao
+                      primeiro documento, na
+
+                      ordem em que são listados no Requerimento&#58;<br>
+
+                      a) <b>“99.999.999 – Declaração de Propósito”;</b><br>
+
+                      b)<b> “99.999.999 – Edital de Convocação”;</b><br>
+
+                      c)<b> “99.999.999 – AGO/E de DD/MM/AAAA”;</b><br>
+
+                      d) <b>“99.999.999 – Declaração e autorizações – Maria
+                      Abcd”;</b><br>
+
+                      e)<b> “99.999.999 – Declaração capacitação técnica – Maria
+                      Abcd”;</b><br>
+
+                      f)<b> “99.999.999 – Currículo – Maria Abcd”;</b><br>
+
+                      g)<b> “99.999.999 – Declaração e autorizações – José
+                      Abcd”;</b><br>
+
+                      h)<b> “99.999.999 – Declaração e autorizações – João
+                      Xyz”;</b><br>
+
+                      i)<b> “99.999.999 – Declaração e autorizações – Carlos
+                      Wyz”.</b></span></p>
+
+
+                      <p class="MsoNormal" style="line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;"><br>
+
+                      <br>
+
+                      </span></p>
+
+
+                      <p class="MsoNormal"
+                      style="line-height&#58;normal;"><b><span
+                      style="font-size&#58;12.0pt;">Exemplo
+
+                      5&#58;<br>
+
+                      <br>
+
+                      Tipo do pleito&#58; </span></b><span
+                      style="font-size&#58;12.0pt;">Aumento de capital<br>
+
+                      <b>Modelo Sisorf 8.3.10.13&#58; </b>REQUERIMENTO DE
+                      APROVAÇÃO DE AUMENTO DE CAPITAL
+
+                      EM ADMINISTRADORA DE CONSÓRCIO – SOCIEDADE ANÔNIMA<br>
+
+                      <b>Denominação social da Instituição&#58; </b>“Consórcio
+                      Exemplo Administradora de
+
+                      Consórcios S.A.”<br>
+
+                      <b>Nome fantasia ou sigla&#58; </b>“Consórcio Exemplo”<br>
+
+                      <b>CNPJ&#58; </b>99.999.999/9999-99<br>
+
+                      <b>Ato Societário&#58; </b>Assembleia Geral Extraordinária
+                      de DD/MM/AAAA<br>
+
+                      <br>
+
+                      Campo “<b>Descrição</b>” de cada documento&#58;<br>
+
+                      <br>
+
+                      1. Requerimento, primeiro documento a ser
+                      protocolado&#58;<br>
+
+                      <b>&#160; “99.999.999 – Consórcio Exemplo – AGE de
+                      DD/MM/AAAA – Aumento de
+
+                      Capital”</b><br>
+
+                      2. Demais documentos vinculados ou associados ao primeiro
+                      documento, na ordem
+
+                      em que são listados no Requerimento&#58;<br>
+
+                      a) <b>“99.999.999 – Edital de Convocação”;</b><br>
+
+                      b)<b> “99.999.999 – AGE DE DD/MM/AAAA”;</b><br>
+
+                      c)<b> “99.999.999 – Estatuto social”;</b><br>
+
+                      d)<b> “99.999.999 – Lista de subscrição”;</b><br>
+
+                      e)<b> “99.999.999 – Comprovante de depósito
+                      bancário”;</b><br>
+
+                      f)<b> “99.999.999 – Justificativa fundamentada da
+                      operação”.</b></span></p>
+
+
+                      <p class="MsoNormal" style="line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;"><br>
+
+                      <b>Exemplo 6&#58;</b><br>
+
+                      <br>
+
+                      Na resposta a exigências feitas pelo Deorf, quando não for
+                      possível via BC
+
+                      Correio por ser necessário o envio de documentos anexos, o
+                      campo “Descrição” do
+
+                      Protocolo Digital deve ser preenchido da seguinte
+                      forma&#58;<br>
+
+                      <b>Conteúdo&#58; </b>Resposta a exigências<br>
+
+                      <b>Nome fantasia ou sigla ou denominação social da
+                      Instituição&#58; </b>Instituição
+
+                      XYZ<br>
+
+                      <b>CNPJ&#58;</b> 99.999.999/9999-99<br>
+
+                      <b>Declarações e Autorizações do Eleito&#58;</b> José
+                      Abcd<br>
+
+                      <b>Currículo do Eleito&#58;</b> José Abcd<br>
+
+                      1. Primeiro documento a ser protocolado&#58;<br>
+
+                      &#160; <b>“99.999.999 – Instituição XYZ – Resposta
+                      exigências”</b><br>
+
+                      2. Caso seja necessário envio de documento vinculado ou
+                      associado, na ordem
+
+                      constante no ofício de exigências&#58;<br>
+
+                      a) <b>“99.999.999 – Declarações e Autorizações – José
+                      Abcd”;</b><br>
+
+                      b) <b>“99.999.999 - Currículo – José Abcd”.</b></span></p>
+
+
+                      <p class="MsoNormal" style="line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;"><br>
+
+                      <b>Exemplo 7&#58;</b></span></p>
+
+
+                      <p class="MsoNormal" style="line-height&#58;normal;"><span
+                      style="font-size&#58;12.0pt;"><br>
+
+                      Na interposição de recurso à decisão de indeferimento ao
+                      Deorf, quando não for
+
+                      possível via BC Correio por ser necessário o envio de
+                      documentos anexos, o
+
+                      campo “Descrição” do Protocolo Digital deve ser preenchido
+                      da seguinte forma&#58;<br>
+
+                      <b>Conteúdo&#58; </b>Recurso<br>
+
+                      <b>Nome fantasia ou sigla ou denominação social da
+                      Instituição&#58; </b>Instituição
+
+                      XYZ<br>
+
+                      <b>Declaração do Eleito</b>&#58; João Xyz<br>
+
+                      1. Primeiro documento a ser protocolado&#58;<br>
+
+                      &#160; <b>“99.999.999 – Instituição XYZ – Recurso</b>”<br>
+
+                      2. Caso seja necessário envio de documento vinculado ou
+                      associado&#58;<br>
+
+                      &#160; <b>“99.999.999 – Declaração - João
+                      Xyz”</b></span></p>
+
+
+                      </div>
+
+
+
+
+
+                      </div>
+                    voto: null
+                Instrução Normativa BCB:
+                  value:
+                    id: 51449
+                    numero: 130
+                    tipo: Instrução Normativa BCB
+                    titulo: Instrução Normativa BCB N° 130
+                    arquivos: null
+                    dataHora: '2021-07-22T22:34:00Z'
+                    dataHoraTexto: 22/7/2021 19:34
+                    versaoNormativo: 1
+                    assunto: Divulga a versão 3.0 do Manual de APIs do Open Banking.
+                    normasVinculadas:
+                      - tipo: INSTRUÇÃO NORMATIVA BCB
+                        numero: 95
+                        ano: 2021
+                      - tipo: RESOLUÇÃO CONJUNTA
+                        numero: 1
+                        ano: 2020
+                      - tipo: RESOLUÇÃO BCB
+                        numero: 32
+                        ano: 2020
+                      - tipo: CIRCULAR
+                        numero: 4032
+                        ano: 2020
+                    referencias:
+                      - >-
+                        Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do
+                        BCB), arts. 23, inciso I, "a", e 62, inciso IV.
+                      - Resolução BCB nº 32/2020.
+                      - Cita Resolução Conjunta BCB/CMN nº 1/2020.
+                      - Cita Circular BCB nº 4.032/2020.
+                      - Revoga Instrução Normativa BCB nº 95/2021.
+                    atualizacoes: null
+                    revogado: false
+                    cancelado: false
+                    dou: Publicada no DOU de 27/7/2021, Seção 1, p. 80-82.
+                    voto: null
+                    texto: >-
+                      <div
+                      class="ExternalClass5C6C15EF52D04235AC1DEBF5D0279422">
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;18pt;text-align&#58;center;"
+                      align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">INSTRUÇÃO
+                      NORMATIVA BCB Nº 130, DE 22 DE JULHO DE
+
+                      2021</span></p><p class="MsoNormal" style="margin&#58;0cm
+                      0cm 6pt 212.65pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Divulga
+                      a versão 3.0 do Manual de APIs do <strong>Open
+
+                      Banking</strong>.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Os
+                      Chefes do Departamento de Regulação do
+
+                      Sistema Financeiro (Denor) e do Departamento de Tecnologia
+                      da Informação
+
+                      (Deinf), no uso das atribuições que lhes conferem os arts.
+                      23, inciso I, alínea
+
+                      &quot;a&quot;, e 62, inciso IV, do Regimento Interno do
+                      Banco Central do
+
+                      Brasil, anexo à Portaria nº 84.287, de 27 de fevereiro de
+                      2015, com base no
+
+                      art. 3º, inciso II, da Resolução BCB nº 32, de 29 de
+                      outubro de 2020,</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">R
+                      E S O L V E M &#58;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Art.
+                      1º &#160;Esta
+
+                      Instrução Normativa divulga a versão 3.0 do Manual de APIs
+                      do <strong>Open Banking</strong>,
+
+                      <a name="_Hlk55486380">de observância obrigatória por
+                      parte das instituições
+
+                      participantes,</a> conforme Anexo.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Parágrafo
+                      único. &#160;O manual de que trata o
+                      <strong>caput</strong>,
+
+                      em sua versão mais recente, estará acessível na página do
+                      <strong>Open Banking</strong>
+
+                      no sítio eletrônico do Banco Central do Brasil na internet
+                      e no Portal do <strong>Open Banking</strong> no Brasil,
+                      mantido pela Estrutura Responsável pela
+
+                      Governança do <strong>Open Banking</strong> de que trata o
+                      art. 44, § 1º, da Resolução
+
+                      Conjunta nº 1, de 4 de maio de 2020.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Art.
+                      2º&#160; Fica
+
+                      revogada a Instrução
+
+                      Normativa nº 95, de
+
+                      14 de abril de 2021.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;36pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Art.
+                      3º &#160;Esta
+
+                      Instrução Normativa entra em vigor na data de sua
+                      publicação.</span></p><p class="MsoNormal"
+                      style="margin-left&#58;70.9pt;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">João
+                      André Calvino Marques
+                      Pereira&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                      Haroldo Jayme Martins Froes Cruz<br>Chefe do Departamento
+                      de Regulação
+                      do&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                      Chefe do Departamento de<br>Sistema Financeiro
+                      &#160;&#160;&#160;&#160; 
+                      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 
+                      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                      &#160;&#160; &#160;&#160;&#160; Tecnologia da
+                      Informação<br></span></p><p class="MsoNormal"
+                      style="margin-left&#58;70.9pt;"><br
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"></p>
+
+
+                      <p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-align&#58;center;"
+                      align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">ANEXO
+                      À INSTRUÇÃO NORMATIVA
+
+                      BCB Nº 130, DE 22 DE JULHO DE 2021</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-align&#58;center;"
+                      align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Manual
+                      de APIs do Open Banking Versão 3.0</strong></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;"><a
+                      name="_Toc14166332"></a><a name="_Toc14193634"></a><a
+                      name="_Toc14354699"></a><a name="_Toc14354849"></a><a
+                      name="_Toc14681789"></a><a name="_Toc52541656"></a><a
+                      name="_Toc54368699"></a><a name="_Toc54717499"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Histórico
+                      de revisão</strong></span></a><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"></span></p><table
+                      class="MsoTableGrid"
+                      style="margin-left&#58;70.9pt;border-collapse&#58;collapse;border&#58;medium
+                      none;" width="680" cellspacing="0" cellpadding="0"
+                      border="1"><tbody><tr style="height&#58;11.7pt;"><td
+                      style="width&#58;70.65pt;border&#58;1pt solid
+                      windowtext;padding&#58;0cm 5.4pt;height&#58;11.7pt;"
+                      width="94" valign="top"><p
+                      style="margin&#58;0cm;text-align&#58;center;"
+                      align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Data</strong></span></p></td><td
+                      style="width&#58;49.6pt;border-color&#58;windowtext
+                      windowtext windowtext currentcolor;border-style&#58;solid
+                      solid solid none;border-width&#58;1pt 1pt 1pt
+                      medium;padding&#58;0cm 5.4pt;height&#58;11.7pt;"
+                      width="66" valign="top"><p
+                      style="margin&#58;0cm;text-align&#58;center;"
+                      align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Versão</strong></span></p></td><td
+                      style="width&#58;389.8pt;border-color&#58;windowtext
+                      windowtext windowtext currentcolor;border-style&#58;solid
+                      solid solid none;border-width&#58;1pt 1pt 1pt
+                      medium;padding&#58;0cm 5.4pt;height&#58;11.7pt;"
+                      width="520" valign="top"><p
+                      style="margin&#58;0cm;text-align&#58;center;"
+                      align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Descrição
+                        das alterações</strong></span></p></td></tr><tr><td style="width&#58;70.65pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="94" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">29/10/2020</span></p></td><td style="width&#58;49.6pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="66" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">1.0</span></p></td><td style="width&#58;389.8pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="520" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Versão
+                        inicial.</span></p></td></tr><tr><td style="width&#58;70.65pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="94" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">14/4/2021</span></p></td><td style="width&#58;49.6pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="66" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">2.0</span></p></td><td style="width&#58;389.8pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="520" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Incorporação de requisitos da Fase 2 do <strong>Open Banking</strong>.</span></p><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Alteração de “Especificações” na secão de “Definições e
+                        recomendações”.</span></p><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Aprimoramento da “Introdução” e exclusão da seção de
+                        “Apresentação”.</span></p></td></tr><tr><td style="width&#58;70.65pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="94" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">22/7/2021</span></p></td><td style="width&#58;49.6pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="66" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">3.0</span></p></td><td style="width&#58;389.8pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="520" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Incorporação de requisitos da Fase 3 do <strong>Open Banking</strong>.</span></p><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Alteração da seção de “APIs do <strong>Open Banking</strong>”</span></p><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Correção da seção de “Disponibilidade”.</span></p></td></tr></tbody></table><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;">
+
+                      </span><p class="MsoNormal" style="margin&#58;6pt
+                      0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc52541658"></a><a name="_Toc54366376"></a><a
+                      name="_Toc54717501"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Termos
+                      de Uso</strong></a></span><a name="_Toc52541659"></a><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Este
+
+                      manual detalha os requisitos técnicos para a implementação
+                      dos elementos
+
+                      necessários à operacionalização do <strong>Open
+                      Banking</strong>, complementando a
+
+                      regulamentação vigente sobre o tema. </span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">O
+
+                      manual será revisto e atualizado periodicamente a fim de
+                      preservar a compatibilidade
+
+                      com a regulamentação, bem como para incorporar os
+                      aprimoramentos decorrentes da
+
+                      evolução do <strong>Open Banking</strong> e da tecnologia.
+                      </span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Informações
+
+                      mais detalhadas e exemplos da aplicação deste manual
+                      poderão ser encontrados
+
+                      nos guias e tutoriais disponíveis no Portal do
+                      <strong>Open Banking</strong> no Brasil,
+
+                      na Área do Desenvolvedor.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Sugestões,
+
+                      críticas ou pedidos de esclarecimento de dúvidas relativas
+                      ao conteúdo deste
+
+                      documento podem ser enviados ao Banco Central do Brasil
+                      por meio dos canais
+
+                      institucionais dessa autarquia.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc54366377"></a><a name="_Toc54717502"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"></strong></a></span></p><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">
+
+
+                      </span><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;"><a
+                      name="_Toc54366377"></a><a name="_Toc54717502"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Referências</strong></span></a><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Estas
+
+                      especificações baseiam-se, referenciam e complementam,
+                      quando aplicável, os
+
+                      seguintes documentos&#58;</span></p><table
+                      class="MsoNormalTable"
+                      style="margin-left&#58;70.9pt;border-collapse&#58;collapse;border&#58;medium
+                      none;" width="680" cellspacing="0" cellpadding="0"
+                      border="1"><tbody><tr style="height&#58;12.1pt;"><td
+                      style="width&#58;7cm;border&#58;1pt solid
+                      windowtext;background&#58;white none repeat scroll 0%
+                      0%;padding&#58;0cm 3.5pt;height&#58;12.1pt;"
+                      width="265"><p class="MsoNormal"
+                      style="text-align&#58;center;" align="center"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Referência</strong></p></td><td
+                      style="width&#58;11cm;border-color&#58;windowtext
+                      windowtext windowtext currentcolor;border-style&#58;solid
+                      solid solid none;border-width&#58;1pt 1pt 1pt
+                      medium;background&#58;white none repeat scroll 0%
+                      0%;padding&#58;0cm 3.5pt;height&#58;12.1pt;"
+                      width="416"><p class="MsoNormal"
+                      style="text-align&#58;center;" align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong><span
+                      style="color&#58;black;">Origem</span></strong><strong></strong></span></p></td></tr><tr
+                      style="height&#58;12.1pt;"><td
+                      style="width&#58;7cm;border-color&#58;currentcolor
+                      windowtext windowtext;border-style&#58;none solid
+                      solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm
+                      3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal"
+                      style="margin&#58;2pt 0cm;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Resolução
+                      Conjunta nº 1, de 2020</span></p></td><td
+                      style="width&#58;11cm;border-color&#58;currentcolor
+                      windowtext windowtext currentcolor;border-style&#58;none
+                      solid solid none;border-width&#58;medium 1pt 1pt
+                      medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;"
+                      width="416"><p class="MsoNormal" style="margin&#58;2pt
+                      0cm;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">https&#58;//www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&amp;numero=1<span
+                      class="MsoHyperlink"
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">
+                      </span></span></p></td></tr><tr
+                      style="height&#58;12.1pt;"><td
+                      style="width&#58;7cm;border-color&#58;currentcolor
+                      windowtext windowtext;border-style&#58;none solid
+                      solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm
+                      3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal"
+                      style="margin&#58;2pt 0cm;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Resolução
+                      BCB nº 32, de 2020</span></p></td><td
+                      style="width&#58;11cm;border-color&#58;currentcolor
+                      windowtext windowtext currentcolor;border-style&#58;none
+                      solid solid none;border-width&#58;medium 1pt 1pt
+                      medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;"
+                      width="416"><p class="MsoNormal" style="margin&#58;2pt
+                      0cm;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">https&#58;//www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&amp;numero=32</span></p></td></tr><tr
+                      style="height&#58;12.1pt;"><td
+                      style="width&#58;7cm;border-color&#58;currentcolor
+                      windowtext windowtext;border-style&#58;none solid
+                      solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm
+                      3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal"
+                      style="margin&#58;2pt 0cm;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"
+                      lang="EN-US">Hypertext
+                        Transfer Protocol – HTTP/1.1</span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><span lang="EN-US">https&#58;//tools.ietf.org/html/rfc2616</span><span lang="EN-US"> </span></span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">ISO
+                        20022</span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">https&#58;//www.iso20022.org/<span class="MsoHyperlink" style="font-family&#58;calibri;font-size&#58;17.3333px;"> </span></span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">OpenAPI
+                        Specification</span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">https&#58;//github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/3.0.0.md<span class="MsoHyperlink" style="font-family&#58;calibri;font-size&#58;17.3333px;"> </span></span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">Representational
+                        State Transfer </span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">https&#58;//www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm<span class="MsoHyperlink" style="font-family&#58;calibri;font-size&#58;17.3333px;"> </span></span></p></td></tr></tbody></table>
+
+                      <div><a name="_Toc52541660"></a><a
+                      name="_Toc54366378"></a><a name="_Toc54717503"></a><a
+                      name="_Toc47386159"></a><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><br></strong></div><p
+                      class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>1.
+                      Introdução</strong><br></span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">O
+                      <strong>Open Banking</strong> está intrinsecamente ligado
+
+                      às APIs, interfaces por meio das quais será possível
+                      interligar os diferentes
+
+                      sistemas das instituições. Ao serem disponibilizadas pelos
+                      participantes, as
+
+                      APIs precisam satisfazer condições tais como padronização,
+
+                      robustez e segurança, a fim de que o objetivo de
+                      compartilhamento de dados e
+
+                      serviços seja atendido a contento.</span></p><p
+                      style="margin&#58;6pt 0cm
+                      0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Nesse
+                      sentido, este manual visa a definir os
+
+                      principais aspectos relativos às especificações e
+                      implementações das APIs que
+
+                      integram o <strong>Open Banking</strong> no País,
+                      observando as disposições da Resolução
+
+                      Conjunta nº 1, de 4 de maio de 2020, e da Resolução BCB nº
+                      32, de 29 de outubro
+
+                      de 2020.</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">São
+                      tratados neste manual aspectos como&#58; formato para a
+
+                      troca de dados, desenho da interface, protocolo para
+                      transmissão de dados,
+
+                      versionamento, modelo de APIs e
+                      <strong>endpoints.</strong> Desse modo, o manual
+
+                      estabelece as diretrizes gerais sem esgotar todos os
+                      aspectos necessários à
+
+                      implementação das APIs para o <strong>Open
+                      Banking</strong>. As demais definições a cargo
+
+                      do mercado, por meio da estrutura responsável pela
+                      governança, nos termos da
+
+                      Circular nº 4.032, de 23 de junho de 2020, estarão
+                      disponíveis no Portal do <strong>Open
+
+                      Banking</strong><em> </em>no Brasil, no qual poderão ser
+                      encontrados guias, tutoriais
+
+                      e outras informações operacionais sobre as
+                      APIs.</span></p><p style="margin&#58;6pt 0cm
+                      0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Ao
+                      longo deste manual, será constante o uso de siglas e
+
+                      terminologia específica para designar algumas expressões
+                      cotidianas dos
+
+                      profissionais da área de tecnologia. Alguns exemplos das
+                      mais frequentemente
+
+                      utilizadas, com as correspondentes definições, são as
+                      seguintes&#58;</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">I
+                      - API (<strong>Application Programming
+                      Interface</strong>)&#58; um conjunto de
+
+                      definições sobre como um sistema pode acessar dados ou
+                      funcionalidades providos
+
+                      por um outro sistema;</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">II
+                      - REST (<strong>Representational State
+                      Transfer</strong>)&#58; estilo arquitetural de
+                      <strong>software</strong>;</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">III
+                      - API RESTful&#58; API que adere às restrições do estilo
+
+                      arquitetural
+
+                      REST;</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">IV
+                      - OpenAPI&#58; linguagem de especificação de APIs
+                      RESTful;</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">V
+                      -<strong> Endpoint</strong>&#58; elemento de uma
+                      especificação OpenAPI sobre o qual podem ser executadas
+
+                      operações para acessar dados ou
+                      funcionalidades;</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">VI
+                      - HTTP (<strong>Hypertext Transfer Protocol</strong>)&#58;
+                      protocolo para sistemas hipermídia, distribuídos e
+                      colaborativos; e</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">VII
+                      - Operação&#58; elemento de uma especificação OpenAPI que
+                      declara
+
+                      uma maneira válida de se acessar um
+                      <strong>endpoint</strong>, informando, por exemplo,
+
+                      qual método HTTP (GET, POST, etc.) utilizar, nomes e tipos
+                      de parâmetros, etc.</span></p><p class="MsoNormal"
+                      style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687726"></a><a name="_Toc54366379"></a><a
+                      name="_Toc54717504"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">2.
+                      APIs do Open Banking</strong></a></span></p><p
+                      class="MsoNormal" style="margin&#58;6pt
+                      0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">A
+
+                      tabela abaixo exibe as APIs que integram o <strong>Open
+                      Banking</strong>. A coluna &quot;Tipo&quot;
+
+                      informa a classificação da API para fins de desempenho
+                      (ver a subseção &quot;Desempenho&quot;
+
+                      da seção &quot;Requisitos Não Funcionais&quot;).
+                      </span></p><table class="MsoTableGrid"
+                      style="margin-left&#58;70.9pt;border-collapse&#58;collapse;border&#58;medium
+                      none;" cellspacing="0" cellpadding="0"
+                      border="1"><tbody><tr><td
+                      style="width&#58;120.25pt;border&#58;1pt solid
+                      windowtext;padding&#58;0cm 5.4pt;" width="160"
+                      valign="top"><p class="MsoNormal"
+                      style="text-align&#58;center;" align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Nome</strong></span></p></td><td
+                      style="width&#58;276.4pt;border-color&#58;windowtext
+                      windowtext windowtext currentcolor;border-style&#58;solid
+                      solid solid none;border-width&#58;1pt 1pt 1pt
+                      medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p
+                      class="MsoNormal" style="text-align&#58;center;"
+                      align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Descrição</strong></span></p></td><td
+                      style="width&#58;113.15pt;border-color&#58;windowtext
+                      windowtext windowtext currentcolor;border-style&#58;solid
+                      solid solid none;border-width&#58;1pt 1pt 1pt
+                      medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p
+                      class="MsoNormal" style="text-align&#58;center;"
+                      align="center"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Tipo</strong></span></p></td></tr><tr><td
+                      style="width&#58;120.25pt;border-color&#58;currentcolor
+                      windowtext windowtext;border-style&#58;none solid
+                      solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm
+                      5.4pt;" width="160" valign="top"><p
+                      class="MsoNormal"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Produtos
+                      e Serviços</span></p></td><td
+                      style="width&#58;276.4pt;border-color&#58;currentcolor
+                      windowtext windowtext currentcolor;border-style&#58;none
+                      solid solid none;border-width&#58;medium 1pt 1pt
+                      medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p
+                      class="MsoNormal"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve
+                      dar acesso a dados abertos relacionados
+                        a produtos e serviços oferecidos pelos participantes do <strong>Open Banking.</strong></span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Canais de Atendimento</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados abertos relacionados
+                        aos canais de atendimento ao público oferecidos pelos participantes do <strong>Open
+                        Banking.</strong></span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Consentimento</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve permitir a criação, consulta e revogação
+                        de consentimentos de acesso a dados. </span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Dados Cadastrais</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso aos dados cadastrais de clientes
+                        e seus representantes.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Contas</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso aos dados transacionais de
+                        clientes relacionados a contas de depósito à vista, contas de poupança e
+                        contas pré-paga.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Cartão de Crédito</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso aos dados transacionais de
+                        clientes relacionados a contas de pagamento pós-paga.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Operações de Crédito - &#160;Adiantamento a Depositantes</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados transacionais de
+                        clientes relacionados a operações de crédito na modalidade adiantamento a depositantes.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Operações de Crédito - Empréstimos </span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados transacionais de
+                        clientes relacionados a operações de crédito na modalidade empréstimo.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Operações de Crédito - Direitos creditórios
+                        descontados </span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados transacionais de
+                        clientes relacionados a operações de crédito na modalidade direitos
+                        creditórios descontados.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Operações de Crédito - Financiamentos </span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados transacionais de
+                        clientes relacionados a operações de crédito na modalidade financiamento.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Hlk75788891"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Pagamentos</span></a></span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve
+                        permitir a criação do consentimento do pagamento, criar a iniciação de
+                        pagamento e acompanhar a situação das solicitações realizadas.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média
+                        prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Situação do Ambiente</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados sobre a
+                        disponibilidade atual das implementações das APIs. Também deve dar acesso a
+                        dados sobre indisponibilidades programadas.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Alta prioridade</span></p></td></tr></tbody></table><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;">
+
+                      </span><p class="MsoNormal" style="margin&#58;6pt
+                      0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687727"></a><a name="_Toc54366380"></a><a
+                      name="_Toc54717505"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.
+                      Princípios</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Os
+                      princípios abaixo
+
+                      norteiam as especificações e implementações das APIs do
+                      <strong>Open Banking</strong>.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687728"></a><a name="_Toc54366381"></a><a
+                      name="_Toc54717506"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.1
+                      Experiência do usuário</strong></a></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      especificações e
+
+                      implementações das APIs devem oferecer uma boa experiência
+                      para os usuários,
+
+                      sejam eles implementadores ou consumidores das
+                      APIs.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687729"></a><a name="_Toc54366382"></a><a
+                      name="_Toc54717507"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.2
+                      Independência de
+
+                      tecnologia</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      especificações das APIs
+
+                      devem ser independentes de tecnologia, podendo ser
+                      implementadas e consumidas
+
+                      em diferentes linguagens e/ou plataformas tais como Java,
+                      JavaScript, Python e
+
+                      Windows, Linux, Android e iOS.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687730"></a><a name="_Toc54366383"></a><a
+                      name="_Toc54717508"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.3
+                      Segurança</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Procedimentos
+                      e controles
+
+                      (assinaturas digitais, criptografia, protocolos de
+                      autenticação e autorização,
+
+                      entre outros) devem ser adotados de forma a proteger os
+                      participantes do <strong>Open
+
+                      Banking</strong>, seus clientes, os consumidores das APIs
+                      e demais participantes do
+
+                      ecossistema, observada a compatibilidade com a política de
+                      segurança
+
+                      cibernética da instituição.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687731"></a><a name="_Toc54366384"></a><a
+                      name="_Toc54717509"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.4
+                      Extensibilidade</strong></a></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">No
+                      futuro, as APIs poderão
+
+                      ser evoluídas para atender a novos casos de uso e,
+                      portanto, devem ser
+
+                      especificadas e implementadas de forma a permitir e
+                      facilitar extensões como,
+
+                      por exemplo, novos <strong>endpoints</strong>, operações,
+                      parâmetros e propriedades.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687732"></a><a name="_Toc54366385"></a><a
+                      name="_Toc54717510"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.5
+                      Padrões abertos</strong></a></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Padrões
+                      abertos devem ser
+
+                      adotados sempre que possível.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687733"></a><a name="_Toc54366386"></a><a
+                      name="_Toc54717511"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.6
+                      APIs RESTful</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      especificações das APIs
+
+                      devem atender às restrições do estilo arquitetural REST
+                      sempre que possível.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687734"></a><a name="_Toc54366387"></a><a
+                      name="_Toc54717512"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.7
+                      ISO 20022</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      respostas das APIs devem
+
+                      ter como base, sempre que possível, os elementos e
+                      componentes de mensagem ISO
+
+                      20022 ( https&#58;//www.iso20022.org/ ), os quais poderão
+                      ser modificados, caso
+
+                      necessário, para deixar as respostas mais simples e/ou
+                      atender às
+
+                      características locais, tal como implementado em
+                      diferentes jurisdições.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687735"></a><a name="_Toc54366388"></a><a
+                      name="_Toc54717513"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">3.8
+                      Declaração de
+
+                      obrigatoriedade</strong></a></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Todos
+                      os elementos que
+
+                      compõem as especificações das APIs
+                      (<strong>endpoints</strong>, operações, parâmetros,
+
+                      propriedades de respostas, etc.) devem ser explicitamente
+                      declarados como &quot;Obrigatório&quot;,
+
+                      &quot;Opcional&quot; ou &quot;Condicional&quot;, caso
+                      sejam obrigatórios apenas
+
+                      em certas condições.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Funcionalidades
+
+                      que sejam de implementação opcional pelo transmissor devem
+                      ficar explícitas na
+
+                      sua documentação, tanto para informar adequadamente ao
+                      público transmissor, que
+
+                      poderá ou não implementar a funcionalidade, quanto ao
+                      público consumidor, que pode
+
+                      não encontrar a funcionalidade disponível em alguns
+                      transmissores.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687736"></a><a name="_Toc54366389"></a><a
+                      name="_Toc54717514"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">4.
+                      Definições e
+
+                      recomendações</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      definições e
+
+                      recomendações abaixo devem ser observadas pelas
+                      especificações e implementações
+
+                      das APIs do <strong>Open Banking</strong>.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687737"></a><a name="_Toc54366390"></a><a
+                      name="_Toc54717515"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">4.1
+                      Especificações</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      APIs devem ser
+
+                      especificadas com a versão 3.0.0 da linguagem OpenAPI
+
+                      (https&#58;//github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/3.0.0.md).</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      especificações das APIs devem
+
+                      ser analisadas com a versão 5.9.0 do software livre e de
+                      código aberto <strong>Spectral</strong>
+
+                      (https&#58;//github.com/stoplightio/spectral/tree/v5.9.0).
+                      A análise DEVE ser feita
+
+                      com o conjunto de regras (<strong>ruleset</strong>) padrão
+                      desta versão do <strong>Spectral</strong>.
+
+                      O resultado da análise não deve conter erros ou
+                      alertas.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">É
+                      recomendado que a versão
+
+                      3.0.25 do software livre e de código aberto
+                      <strong>Swagger Codegen</strong>
+
+                      (https&#58;//github.com/swagger-api/swagger-codegen/tree/v3.0.25)
+                      seja utilizado
+
+                      para gerar o código de clientes e também o código inicial
+                      de implementações das
+
+                      APIs a partir de suas especificações. Recomenda-se que o
+                      código gerado seja
+
+                      analisado com o intuito de identificar possíveis recursos
+                      da linguagem OpenAPI
+
+                      que foram utilizados nas especificações, mas que não são
+                      adequadamente
+
+                      suportados pelo <strong>Swagger Codegen</strong> e,
+                      possivelmente, por outros <strong>softwares</strong>
+
+                      que trabalham com especificações OpenAPI. Caso isto
+                      ocorra, deve-se avaliar se
+
+                      não é possível alterar as especificações para não mais
+                      fazer uso destes
+
+                      recursos.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Implementações
+                      de exemplo
+
+                      das APIs devem ser disponibilizadas. Os dados retornados
+                      por elas não precisam
+
+                      ser dados reais e nem volumosos, pois o objetivo da
+                      disponibilização é dar ao
+
+                      Banco Central do Brasil, aos implementadores e aos
+                      consumidores das APIs mais
+
+                      um recurso para dirimir eventuais dúvidas acerca de suas
+                      especificações e
+
+                      implementações.<a name="_Toc53687738"> É recomendado que o
+                      código inicial de
+
+                      implementações das APIs mencionado anteriormente seja
+                      complementado de forma a
+
+                      constituir-se nas implementações de
+                      exemplo.</a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      informações disponibilizadas nos dicionários de dados
+                      devem
+
+                      ser consistentes com as especificações OpenAPI associadas.
+                      </span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Todos
+                      os <strong>endpoints </strong>das APIs implementados devem
+                      ser previamente
+
+                      registrados no diretório de participantes. </span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Todos
+                      os <strong>endpoints</strong> registrados que retornem
+                      listas,
+
+                      caso os parâmetros sejam válidos, devem retornar a lista
+                      associada, mesmo que
+
+                      uma seja lista vazia. Não é considerado um retorno válido
+                      o erro 404, neste
+
+                      cenário, quando não houver a informação
+                      associada.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc54366391"></a><a name="_Toc54717516"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">4.2
+                      Versionamento</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      versões das
+
+                      especificações das APIs serão tipificadas como
+                      <strong>&quot;major&quot;</strong>,
+                      <strong>&quot;minor&quot;</strong>,
+
+                      <strong>&quot;patch&quot;</strong> e <strong>&quot;release
+                      candidate&quot;</strong> de acordo com
+
+                      os critérios a seguir&#58;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">I
+                      -<strong> major&#58; </strong>inclui
+
+                      novas características da implementação, mudanças,
+                      correções a serem incorporadas
+
+                      e que podem ser incompatíveis com versões anteriores, por
+                      exemplo, v1.0.0 e
+
+                      v2.0.0;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">II
+                      -<strong> minor&#58;</strong> pequenas
+
+                      mudanças nos elementos já existentes, com manutenção da
+                      compatibilidade com as
+
+                      versões até a <strong>major</strong> imediatamente
+                      anterior, por exemplo, v1.1.0 e
+
+                      v1.2.0;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">III
+                      -<strong> patch&#58; </strong>esclarecimentos
+
+                      às especificações <strong>minor</strong>, não incluem
+                      alterações funcionais, por exemplo,
+
+                      v1.1.1, v1.1.2; e</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">IV
+                      -<strong> release candidate&#58;</strong>
+
+                      versões de pré-lançamento de qualquer versão futura do
+                      tipo <strong>patch</strong>, <strong>minor</strong>
+
+                      ou <strong>major</strong>, por exemplo, v1.0.0-rc e
+                      v1.0.0-rc2.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">A
+                      Estrutura Responsável
+
+                      pela Governança do <strong>Open Banking</strong> de que
+                      trata o art. 44, § 1º, da
+
+                      Resolução Conjunta nº 1, de 2020, poderá lançar novas
+                      versões dos tipos <strong>minor</strong>,
+
+                      <strong>patch</strong> e <strong>release
+                      candidate</strong> das APIs. Entretanto, versões do tipo
+                      <strong>major</strong>
+
+                      só poderão ser lançadas com a anuência do Banco Central do
+                      Brasil, o qual será
+
+                      responsável por definir o cronograma de implantação de
+                      versões <strong>major</strong>.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Por
+                      fim, credenciais de
+
+                      acesso associadas às APIs devem ser agnósticas às suas
+                      versões.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc54717517"></a><a name="_Toc53687739"></a><a
+                      name="_Toc54366392"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">4.3
+                      Portal do Open Banking</strong></a></span><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>
+
+                      no Brasil</strong></span><a name="_Hlk53687679"></a><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">O
+
+                      sítio eletrônico de que trata o art. 15 da Resolução BCB
+                      nº 32, de 2020, deverá conter definições e recomendações
+                      acessórias não
+
+                      presentes neste manual, bem como outros artefatos
+                      necessários à especificação,
+
+                      implementação e consumo das APIs do <strong>Open
+                      Banking</strong>. Todas as definições e
+
+                      recomendações acessórias e artefatos publicados no portal
+                      deverão estar em
+
+                      concordância com este e com os demais manuais do
+                      <strong>Open Banking</strong>.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687740"></a><a name="_Toc54366393"></a><a
+                      name="_Toc54717518"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">4.4
+                      Cronograma</strong></a><strong></strong></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">O
+                      Portal do <strong>Open Banking</strong>
+
+                      deverá listar as APIs em produção, suas versões atuais,
+                      datas em que entraram
+
+                      em produção, <strong>link</strong> para suas
+                      especificações e lista de mudanças desde a
+
+                      última publicação. Também deverá apresentar o cronograma
+                      de homologação das
+
+                      APIs, indicando versão, data de divulgação, data prevista
+                      de entrada em
+
+                      produção e outras informações relevantes. </span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>4.5
+
+                      Logs de mudanças</strong></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Todas
+                      as versões já
+
+                      publicadas das APIs DEVEM ser listadas no Portal do
+                      <strong>Open Banking</strong>,
+
+                      juntamente com os respectivos <strong>logs</strong> de
+                      mudanças e períodos em que estiveram
+
+                      em produção.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687741"></a><a name="_Toc54366394"></a><a
+                      name="_Toc54717519"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">4.6
+                      Definições acessórias</strong></a></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">A
+                      Estrutura Responsável
+
+                      pela Governança do <strong>Open Banking</strong> deverá
+                      estabelecer e publicar no Portal
+
+                      do <strong>Open Banking</strong> um guia de estilo de
+                      especificações de APIs contendo
+
+                      definições e recomendações para os seguintes
+                      elementos&#58;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">I
+                      - Estrutura de URIs (<em>Uniform
+
+                      Resource Identifiers</em>);</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">II
+                      - Cabeçalhos HTTP;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">III
+                      - Códigos de status
+
+                      HTTP;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">IV
+                      - Convenções de corpo de
+
+                      requisições e respostas;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">V
+                      - Convenções de
+
+                      nomenclatura;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">VI
+                      - Tipos de dados comuns;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">VII
+                      - Paginação; e</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">VIII
+                      - Estabilidade de identificadores.<a
+                      name="_Toc53687742"></a><a name="_Toc54366395"></a><a
+                      name="_Toc54717520"><span></span></a></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>4.7
+                      Processo de gerência de mudanças</strong></span></p><p
+                      class="MsoNormal" style="margin&#58;0cm 0cm 6pt
+                      0.05pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">A
+
+                      Estrutura
+
+                      Responsável pela Governança do <strong>Open
+                      Banking</strong> deve estabelecer e publicar no Portal do
+                      <strong>Open
+
+                      Banking</strong> o processo que ela adotará para gerenciar
+                      mudanças nas
+
+                      especificações das APIs.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>4.8
+                      Tutoriais</strong></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Todas
+                      as informações necessárias para o
+
+                      desenvolvimento, testes e entrada em produção de
+                      aplicações ou APIs no <strong>Open
+
+                      Banking</strong> devem estar disponíveis em tutoriais
+                      publicados na Área do
+
+                      Desenvolvedor no Portal do <strong>Open Banking</strong>.
+                      Cada tutorial deve conter todos
+
+                      os passos necessários para o completo desenvolvimento da
+                      atividade em questão,
+
+                      como desenvolvimento e uso de aplicações e APIs,
+                      autenticação e autorização,
+
+                      uso da <strong>Sandbox</strong>, aplicação de testes de
+                      conformidade e cadastramento no
+
+                      diretório. Quando pertinente, devem ser fornecidos
+                      exemplos de código fonte ou
+
+                      de capturas de telas, tornando o processo o mais claro
+                      possível para todos os
+
+                      participantes e interessados.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>4.9
+                      Extensibilidade</strong></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      especificações das APIs
+
+                      do <strong>Open Banking</strong> podem não dar acesso a
+                      todos os dados e funcionalidades
+
+                      que um ou mais participantes desejam expor para os
+                      consumidores das APIs. Isso
+
+                      pode ser necessário para melhor suportar casos de uso ou
+                      possibilitar inovações
+
+                      em produtos e serviços financeiros. Para atender estas e
+                      outras necessidades, é
+
+                      facultado aos participantes implementarem versões
+                      estendidas das APIs
+
+                      inteiramente compatíveis com as especificações padrões das
+                      APIs que são&#58;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">I
+                      - novos <strong>endpoints</strong>;</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">II
+                      - novas operações em <strong>endpoints</strong>
+
+                      pré-existentes;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">III
+                      - novos parâmetros em
+
+                      operações pré-existentes, desde que opcionais;
+                      e</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">IV
+                      - novas propriedades em
+
+                      respostas pré-existentes.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">A
+                      Estrutura Responsável
+
+                      pela Governança do <strong>Open Banking</strong> deverá
+                      publicar no Portal do <strong>Open
+
+                      Banking</strong> as definições e recomendações acessórias
+                      relacionadas às extensões
+
+                      das APIs.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Todas
+                      as extensões
+
+                      implementadas pelos participantes deverão estar listadas,
+                      com sua documentação
+
+                      referenciada, em seção específica no Portal do
+                      <strong>Open Banking</strong> e
+
+                      disponíveis para consumo, observadas as regras de
+                      ressarcimento de despesas
+
+                      previstas na regulamentação vigente.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687743"></a><a name="_Toc54366396"></a><a
+                      name="_Toc54717521"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">5.
+                      Requisitos não
+
+                      funcionais</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Esta
+                      seção apresenta os
+
+                      requisitos não funcionais que as instituições
+                      participantes devem observar na
+
+                      implementação das APIs do <strong>Open
+                      Banking</strong>.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687744"></a><a name="_Toc54366397"></a><a
+                      name="_Toc54717522"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">5.1
+                      Limites de
+                      tráfego</strong></a><strong></strong></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      APIs deverão suportar,
+
+                      no mínimo&#58;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">I
+                      - 300 requisições por
+
+                      segundo globalmente, ou seja, independente do endereço IP
+                      (<strong>Internet Protocol</strong>)
+
+                      do qual provêm as requisições; e</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">II
+                      - 500 requisições por
+
+                      minuto originadas de um mesmo endereço IP.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      requisições que
+
+                      excederem os limites poderão ser enfileiradas ou
+                      recusadas, caso em que deverão
+
+                      ser respondidas com o código de status HTTP 429
+                      (<strong>Too Many Requests</strong>).</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Por
+                      fim, as requisições que
+
+                      ultrapassarem os limites deverão ser desprezadas no
+                      cálculo do tempo de
+
+                      resposta das implementações das APIs.</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687745"></a><a name="_Toc54366398"></a><a
+                      name="_Toc54717523"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">5.2
+                      Desempenho</strong></a></span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Deverá
+                      ser medido o tempo
+
+                      de resposta de cada requisição, ou seja, o tempo
+                      transcorrido entre o
+
+                      recebimento de uma requisição que não ultrapassa os
+                      limites de tráfego e o
+
+                      momento em que a requisição é completamente respondida.
+                      Adicionalmente, esta
+
+                      medição deverá ser feita de maneira que os tempos medidos
+                      sejam os mais
+
+                      próximos possíveis dos tempos de resposta experimentados
+                      por quem fez a
+
+                      requisição. Neste contexto, as APIs deverão manter o
+                      percentil 95 do tempo de
+
+                      resposta em no máximo&#58;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">I
+                      - 1000ms, caso sejam
+
+                      classificadas como APIs de alta prioridade;</span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">II
+                      - 1500ms, caso sejam
+
+                      classificadas como APIs de média prioridade;
+                      e</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">III
+                      - 4000ms, caso sejam
+
+                      APIs administrativas.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Por
+                      exemplo, em um dia que
+
+                      uma API da alta prioridade receba 10.000 requisições, o
+                      tempo de resposta de pelo
+
+                      menos 9.500 requisições deve ser inferior a
+                      1.000ms.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;"><a
+                      name="_Toc53687746"></a><a name="_Toc54366399"></a><a
+                      name="_Toc54717524"><strong
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">5.3
+                      Disponibilidade</strong></a></span></p><p
+                      class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">As
+                      APIs que integram o <strong>Open Banking</strong>,
+                      listadas na Seção 2 deste
+
+                      manual, deverão satisfazer requisitos mínimos de
+                      disponibilidade. Cada um de
+
+                      seus<strong> endpoints</strong> deverá estar
+                      disponível&#58;</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">I
+                      - 85%
+
+                      do tempo a cada 24 horas; e</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">II
+                      - 99,5%
+
+                      do tempo a cada 3 meses.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">Há
+                      perspectiva de elevação
+
+                      dos requisitos mínimos de disponibilidade das APIs
+                      destinadas ao
+
+                      compartilhamento de dados e serviços do escopo do
+                      <strong>Open Banking</strong>, de forma
+
+                      a harmonizá-los com os dos sistemas de pagamentos
+                      críticos.</span></p><p class="MsoNormal"
+                      style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span
+                      style="font-family&#58;calibri;font-size&#58;17.3333px;">O
+
+                      Portal do <strong>Open Banking</strong> deverá conter uma
+                      especificação detalhada de como
+
+                      a disponibilidade de cada <strong>endpoint </strong>será
+                      calculada.<br></span></p><span id="ms-rterangepaste-start"
+                      aria-hidden="true"></span>
+
+
+                      <p class="MsoNormal" style="text-align&#58;right;"
+                      align="right"><span
+                      style="font-family&#58;&quot;calibri&quot;,
+                      sans-serif;font-size&#58;17.3333px;">Brasília, 22 de julho
+                      de
+
+                      2021.</span></p><span id="ms-rterangepaste-end"
+                      aria-hidden="true"></span></div>
         '400':
           description: Erro nos parâmetros.
 components:
@@ -110,6 +3299,13 @@ components:
       type: object
       additionalProperties: false
       properties:
+        meta:
+          type: object
+          properties:
+            totalRows:
+              type: integer
+            rowCount:
+              type: integer
         conteudo:
           type: array
           items:
@@ -175,6 +3371,14 @@ components:
                 type: boolean
                 title: Cancelado
                 description: Indica que o documento foi cancelado.
+              posicao:
+                type: integer
+                title: Posição
+                description: Posição na ordem de consulta.
+              voto:
+                type: string
+                title: Voto
+                description: Dados do voto associado.
     Norma:
       type: object
       additionalProperties: false
@@ -369,3 +3573,7 @@ components:
               1º/1/2022.
           items:
             type: string
+        voto:
+          type: string
+          title: Voto
+          description: Dados do voto associado.

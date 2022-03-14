@@ -1,0 +1,216 @@
+meta:
+  totalRows: 31
+  rowCount: 15
+conteudo:
+  - titulo: Comunicado N° 38.428
+    dataHoraTexto: 11/3/2022 14:39
+    unidadeResponsavel: DEORF
+    id: 128766
+    tipo: Comunicado
+    numero: "38428"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T17:39:10Z
+    posicao: 0
+  - titulo: Comunicado N° 38.427
+    dataHoraTexto: 11/3/2022 10:40
+    assunto: <div
+      class="ExternalClassA05E30A7894A451CA5248B61B83F22C5">Divulga, para fins
+      de recebimento de eventuais objeções, nomes de pessoas eleitas ou nomeadas
+      para ocupar cargos de administração em instituições de pagamento</div>
+    unidadeResponsavel: DEORF
+    id: 128765
+    tipo: Comunicado
+    numero: "38427"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T13:40:10Z
+    RefinableString03: Comunicado
+    posicao: 1
+  - titulo: Instrução Normativa BCB N° 240
+    dataHoraTexto: 11/3/2022 10:12
+    assunto: Divulga procedimentos a respeito da prestação de
+      informações e ao cálculo da exigibilidade de que trata a Resolução BCB nº
+      188, de 23 de fevereiro de 2022, que define e consolida as regras do
+      recolhimento compulsório sobre recursos de depósitos de poupança.
+    unidadeResponsavel: DEBAN
+    id: 51707
+    tipo: Instrução Normativa BCB
+    numero: "240"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T13:12:58Z
+    RefinableString03: Instrução Normativa BCB
+    posicao: 2
+  - titulo: Comunicado N° 38.426
+    dataHoraTexto: 11/3/2022 08:42
+    assunto: <div
+      class="ExternalClass1CEF29D0728D424C9F0B7D82DB16FC5C">Divulga a Taxa
+      Básica Financeira (TBF), o Redutor &quot;R&quot; e a Taxa Referencial (TR)
+      relativos a 10 de março de 2022.</div>
+    unidadeResponsavel: DEMAB
+    id: 128764
+    tipo: Comunicado
+    numero: "38426"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T11:42:55Z
+    RefinableString03: Comunicado
+    posicao: 3
+  - titulo: Resolução BCB N° 202
+    dataHoraTexto: 11/3/2022 07:35
+    assunto: Estabelece o cálculo da parcela dos ativos ponderados
+      pelo risco (RWA) relativa ao cálculo do capital requerido para os riscos
+      associados a serviços de pagamento (RWASP) estabelecida nas Resoluções BCB
+      ns. 200 e 201, ambas de 11 de março de 2022.
+    unidadeResponsavel: SECRE
+    id: 51706
+    tipo: Resolução BCB
+    numero: "202"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T10:35:17Z
+    RefinableString03: Resolução BCB
+    posicao: 4
+  - titulo: Resolução BCB N° 201
+    dataHoraTexto: 11/3/2022 07:33
+    assunto: Dispõe sobre a metodologia facultativa simplificada
+      para apuração do requerimento mínimo de Patrimônio de Referência
+      Simplificado (PRS5) para os conglomerados prudenciais classificados como
+      do Tipo 3, sobre os requisitos para opção por essa metodologia e sobre a
+      estrutura simplificada de gerenciamento contínuo de riscos.
+    unidadeResponsavel: SECRE
+    id: 51705
+    tipo: Resolução BCB
+    numero: "201"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T10:33:47Z
+    RefinableString03: Resolução BCB
+    posicao: 5
+  - titulo: Resolução BCB N° 200
+    dataHoraTexto: 11/3/2022 07:32
+    assunto: Dispõe sobre os requerimentos mínimos de Patrimônio de
+      Referência (PR), de Nível I e de Capital Principal e sobre o Adicional de
+      Capital Principal de conglomerado prudencial classificado como Tipo 3.
+    unidadeResponsavel: SECRE
+    id: 51704
+    tipo: Resolução BCB
+    numero: "200"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T10:32:59Z
+    RefinableString03: Resolução BCB
+    posicao: 6
+  - titulo: Resolução BCB N° 199
+    dataHoraTexto: 11/3/2022 07:32
+    assunto: Dispõe sobre a metodologia para apuração do Patrimônio
+      de Referência (PR) para conglomerado prudencial classificado como Tipo 3.
+    unidadeResponsavel: SECRE
+    id: 51703
+    tipo: Resolução BCB
+    numero: "199"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T10:32:11Z
+    posicao: 7
+  - titulo: Resolução BCB N° 198
+    dataHoraTexto: 11/3/2022 07:31
+    assunto: Dispõe sobre o requerimento mínimo de Patrimônio de
+      Referência de Instituição de Pagamento (PRIP) de conglomerado do Tipo 2,
+      nos termos da Resolução BCB nº 197, de 11 de março de 2022, e de
+      instituição de pagamento não integrante de conglomerado prudencial, e
+      sobre a metodologia de apuração desses requerimentos e a respectiva
+      estrutura de gerenciamento contínuo de riscos.
+    unidadeResponsavel: SECRE
+    id: 51702
+    tipo: Resolução BCB
+    numero: "198"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T10:31:32Z
+    posicao: 8
+  - titulo: Resolução BCB N° 197
+    dataHoraTexto: 11/3/2022 07:30
+    assunto: Classifica o conglomerado prudencial integrado por ao
+      menos uma instituição que realize serviço de pagamento e estabelece a
+      segmentação para os conglomerados prudenciais classificados como Tipo 3
+      para fins de aplicação proporcional da regulação prudencial.
+    unidadeResponsavel: SECRE
+    id: 51701
+    tipo: Resolução BCB
+    numero: "197"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-11T10:30:49Z
+    posicao: 9
+  - titulo: Comunicado N° 38.425
+    dataHoraTexto: 10/3/2022 18:30
+    assunto: <div
+      class="ExternalClass1E452A4DC9CF44FB96E31FAD388EC762">Divulga condições
+      para a realização de operações compromissadas com instituições financeiras
+      participantes do módulo Oferta Pública (Ofpub).</div>
+    unidadeResponsavel: DEMAB
+    id: 128763
+    tipo: Comunicado
+    numero: "38425"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-10T21:30:44Z
+    posicao: 10
+  - titulo: Comunicado N° 38.424
+    dataHoraTexto: 10/3/2022 18:30
+    assunto: <div
+      class="ExternalClass9374B099DAC947A1A76FF85A0D400E40">Divulga as condições
+      de oferta pública para a realização de operações de swap para fins de
+      rolagem do vencimento de 02/05/2022.</div>
+    unidadeResponsavel: DEMAB
+    id: 128762
+    tipo: Comunicado
+    numero: "38424"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-10T21:30:01Z
+    posicao: 11
+  - titulo: Comunicado N° 38.423
+    dataHoraTexto: 10/3/2022 08:33
+    assunto: <div
+      class="ExternalClass50DDBFFEDCFE470492D8410EFA0A6D33">Divulga a Taxa
+      Básica Financeira (TBF), o Redutor &quot;R&quot; e a Taxa Referencial (TR)
+      relativos a 9 de março de 2022.</div>
+    unidadeResponsavel: DEMAB
+    id: 128761
+    tipo: Comunicado
+    numero: "38423"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-10T11:33:43Z
+    posicao: 12
+  - titulo: Comunicado N° 38.422
+    dataHoraTexto: 9/3/2022 18:32
+    assunto: <div
+      class="ExternalClass6B2AF54ABE3D4C21B5406593ABE1EC25">Divulga condições
+      para a realização de operações compromissadas com instituições financeiras
+      participantes do módulo Oferta Pública (Ofpub).</div>
+    unidadeResponsavel: DEMAB
+    id: 128760
+    tipo: Comunicado
+    numero: "38422"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-09T21:32:06Z
+    posicao: 13
+  - titulo: Comunicado N° 38.421
+    dataHoraTexto: 9/3/2022 18:31
+    assunto: <div
+      class="ExternalClass2F3392C121094E5F9EF9AC48320C8B33">Divulga as condições
+      de oferta pública para a realização de operações de swap para fins de
+      rolagem do vencimento de 02/05/2022.</div>
+    unidadeResponsavel: DEMAB
+    id: 128759
+    tipo: Comunicado
+    numero: "38421"
+    revogado: "0"
+    cancelado: "0"
+    dataHora: 2022-03-09T21:31:26Z
+    posicao: 14

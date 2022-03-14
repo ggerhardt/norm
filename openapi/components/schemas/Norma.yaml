@@ -31,21 +31,28 @@ properties:
     type: string
     title: Data da publicação
     description: Data de publicação, com formato d/m/aaaa hh:mm
-    example: '9/3/2022 10:22'
+    example: 9/3/2022 10:22
   assunto:
     type: string
     title: Assunto
     description: Descrição do documento publicado
-    example: "<div class=\"ExternalClass3EC97B0925564B8E8CB062E4E939EC7D\">Divulga nome de pessoas com interesse em participar do controle de Instituição de Pagamento.\n</div>"
+    example: >-
+      <div class="ExternalClass3EC97B0925564B8E8CB062E4E939EC7D">Divulga nome de
+      pessoas com interesse em participar do controle de Instituição de
+      Pagamento.
+
+      </div>
   unidadeResponsavel:
-      type: string
-      title: Unidade responsável
-      description: Unidade responsável pelo documento
-      example: DEORF
+    type: string
+    title: Unidade responsável
+    description: Unidade responsável pelo documento
+    example: DEORF
   revogado:
     type: boolean
-    title: Revogado    
-    description: Indica se o documento está revogado. Se não estiver revogado, está em vigor.
+    title: Revogado
+    description: >-
+      Indica se o documento está revogado. Se não estiver revogado, está em
+      vigor.
   cancelado:
     type: boolean
     title: Cancelado
@@ -54,7 +61,66 @@ properties:
     type: string
     title: Texto do documento
     description: Texto do documento
-    example: "<div class=\"ExternalClass873CBFF09CDF486B857419F9E7174DDC\"><p style=\"margin-right&#58;3px;\">Divulgamos que as pessoas físicas abaixo identificadas pretendem participar do controle da sociedade abaixo especificada&#58;<br>\n<br>\nNome&#58; Pay4Fun Pagamentos S.A.<br>\nCNPJ&#58; 20.757.199/0001-04<br>\nLocal da sede&#58; São Paulo / SP<br>\nControladores (diretos e finais)&#58;<br>\nMarlon Elias Rodrigues Rupe – CPF&#58; 340.521.388-64<br>\nLeonardo Dinacci Baptista – CPF&#58; 280.791.368-74</p>\n\n<p style=\"margin-right&#58;3px;\">Eventuais objeções à participação das pessoas acima referidas no grupo de controle da Pay4Fun Pagamentos S.A., acompanhadas da documentação comprobatória, devem ser apresentadas diretamente ao Banco Central do Brasil, por meio do Protocolo Digital, na forma especificada abaixo, no prazo de quinze dias contados da divulgação deste comunicado, observado que os pretensos controladores têm, na forma da legislação em vigor, direito a vistas do processo respectivo.<br>\n<br>\nProtocolo Digital (disponível na página do Banco Central do Brasil na internet)<br>\nPreencher o campo “Número do Processo Administrativo Eletrônico – PE” com o número 198409<br>\nSelecionar, no campo “Assunto”&#58; Autorizações e Licenciamentos para Instituições Supervisionadas e para Integrantes do SPB<br>\nSelecionar, no campo “Destino”&#58; Deorf – Gerência Técnica em Belo Horizonte (GTBHO)<br>\n<br>\n<br>\n&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;Carolina Pancotto Borher<br>\n&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;Chefe do Departamento de Organização do Sistema Financeiro</p>\n\n<p>&#160;</p>\n\n<p>&#160;</p>\n</div>"
+    example: >-
+      <div class="ExternalClass873CBFF09CDF486B857419F9E7174DDC"><p
+      style="margin-right&#58;3px;">Divulgamos que as pessoas físicas abaixo
+      identificadas pretendem participar do controle da sociedade abaixo
+      especificada&#58;<br>
+
+      <br>
+
+      Nome&#58; Pay4Fun Pagamentos S.A.<br>
+
+      CNPJ&#58; 20.757.199/0001-04<br>
+
+      Local da sede&#58; São Paulo / SP<br>
+
+      Controladores (diretos e finais)&#58;<br>
+
+      Marlon Elias Rodrigues Rupe – CPF&#58; 340.521.388-64<br>
+
+      Leonardo Dinacci Baptista – CPF&#58; 280.791.368-74</p>
+
+
+      <p style="margin-right&#58;3px;">Eventuais objeções à participação das
+      pessoas acima referidas no grupo de controle da Pay4Fun Pagamentos S.A.,
+      acompanhadas da documentação comprobatória, devem ser apresentadas
+      diretamente ao Banco Central do Brasil, por meio do Protocolo Digital, na
+      forma especificada abaixo, no prazo de quinze dias contados da divulgação
+      deste comunicado, observado que os pretensos controladores têm, na forma
+      da legislação em vigor, direito a vistas do processo respectivo.<br>
+
+      <br>
+
+      Protocolo Digital (disponível na página do Banco Central do Brasil na
+      internet)<br>
+
+      Preencher o campo “Número do Processo Administrativo Eletrônico – PE” com
+      o número 198409<br>
+
+      Selecionar, no campo “Assunto”&#58; Autorizações e Licenciamentos para
+      Instituições Supervisionadas e para Integrantes do SPB<br>
+
+      Selecionar, no campo “Destino”&#58; Deorf – Gerência Técnica em Belo
+      Horizonte (GTBHO)<br>
+
+      <br>
+
+      <br>
+
+      &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;
+      &#160; &#160; &#160; &#160; &#160; &#160;Carolina Pancotto Borher<br>
+
+      &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;Chefe do
+      Departamento de Organização do Sistema Financeiro</p>
+
+
+      <p>&#160;</p>
+
+
+      <p>&#160;</p>
+
+      </div>
   dou:
     type: string
     title: DOU
@@ -63,11 +129,13 @@ properties:
   versaoNormativo:
     type: string
     title: Versão do Normativo
-    description: Versão do documento. Dependendo do tipo do documento, não existe versionamento 
+    description: >-
+      Versão do documento. Dependendo do tipo do documento, não existe
+      versionamento
     example: null
   normasVinculadas:
     type: array
-    items: 
+    items:
       type: object
       properties:
         tipo:
@@ -89,25 +157,34 @@ properties:
     type: array
     title: Referências
     description: Referências do documento.
-    example: 
-      - Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do BCB), arts. 23, inciso I, \"a\", e 62, inciso IV.","Resolução BCB nº 32/2020.
-      - Cita Resolução Conjunta BCB/CMN nº 1/2020."."Cita Circular BCB nº 4.032/2020.","Revoga Instrução Normativa BCB nº 95/2021.
-    items: 
+    example:
+      - >-
+        Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do BCB), arts. 23,
+        inciso I, \"a\", e 62, inciso IV.","Resolução BCB nº 32/2020.
+      - >-
+        Cita Resolução Conjunta BCB/CMN nº 1/2020."."Cita Circular BCB nº
+        4.032/2020.","Revoga Instrução Normativa BCB nº 95/2021.
+    items:
       type: string
-
   atualizacoes:
     type: array
     title: Atualizações
     description: Atualizações do documento.
-    example: 
+    example:
       - Resolução BCB nº 156/2021 - Revogação total, a partir de 1º/1/2022.
-    items: 
+    items:
       type: string
   arquivos:
     type: array
     title: Arquivos
-    description: Links para arquivos associados. Algumas normas possuem na norma em pdf. Arquivos terminados em ...
-    example: 
+    description: >-
+      Links para arquivos associados. Algumas normas possuem na norma em pdf.
+      Arquivos terminados em ...
+    example:
       - Resolução BCB nº 156/2021 - Revogação total, a partir de 1º/1/2022.
-    items: 
+    items:
       type: string
+  voto:
+    type: string
+    title: Voto
+    description: Dados do voto associado.

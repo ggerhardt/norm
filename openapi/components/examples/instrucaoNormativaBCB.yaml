@@ -1,0 +1,535 @@
+id: 51449
+numero: 130
+tipo: Instrução Normativa BCB
+titulo: Instrução Normativa BCB N° 130
+arquivos: null
+dataHora: 2021-07-22T22:34:00Z
+dataHoraTexto: 22/7/2021 19:34
+versaoNormativo: 1
+assunto: Divulga a versão 3.0 do Manual de APIs do Open Banking.
+normasVinculadas:
+  - tipo: INSTRUÇÃO NORMATIVA BCB
+    numero: 95
+    ano: 2021
+  - tipo: RESOLUÇÃO CONJUNTA
+    numero: 1
+    ano: 2020
+  - tipo: RESOLUÇÃO BCB
+    numero: 32
+    ano: 2020
+  - tipo: CIRCULAR
+    numero: 4032
+    ano: 2020
+referencias:
+  - Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do BCB), arts. 23,
+    inciso I, "a", e 62, inciso IV.
+  - Resolução BCB nº 32/2020.
+  - Cita Resolução Conjunta BCB/CMN nº 1/2020.
+  - Cita Circular BCB nº 4.032/2020.
+  - Revoga Instrução Normativa BCB nº 95/2021.
+atualizacoes: null
+revogado: false
+cancelado: false
+dou: Publicada no DOU de 27/7/2021, Seção 1, p. 80-82.
+voto: null
+texto: >-
+  <div class="ExternalClass5C6C15EF52D04235AC1DEBF5D0279422">
+
+
+  <p class="MsoNormal" style="margin-bottom&#58;18pt;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">INSTRUÇÃO NORMATIVA BCB Nº 130, DE 22 DE JULHO DE
+
+  2021</span></p><p class="MsoNormal" style="margin&#58;0cm 0cm 6pt 212.65pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Divulga a versão 3.0 do Manual de APIs do <strong>Open
+
+  Banking</strong>.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Os Chefes do Departamento de Regulação do
+
+  Sistema Financeiro (Denor) e do Departamento de Tecnologia da Informação
+
+  (Deinf), no uso das atribuições que lhes conferem os arts. 23, inciso I, alínea
+
+  &quot;a&quot;, e 62, inciso IV, do Regimento Interno do Banco Central do
+
+  Brasil, anexo à Portaria nº 84.287, de 27 de fevereiro de 2015, com base no
+
+  art. 3º, inciso II, da Resolução BCB nº 32, de 29 de outubro de 2020,</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">R E S O L V E M &#58;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Art. 1º &#160;Esta
+
+  Instrução Normativa divulga a versão 3.0 do Manual de APIs do <strong>Open Banking</strong>,
+
+  <a name="_Hlk55486380">de observância obrigatória por parte das instituições
+
+  participantes,</a> conforme Anexo.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Parágrafo único. &#160;O manual de que trata o <strong>caput</strong>,
+
+  em sua versão mais recente, estará acessível na página do <strong>Open Banking</strong>
+
+  no sítio eletrônico do Banco Central do Brasil na internet e no Portal do <strong>Open Banking</strong> no Brasil, mantido pela Estrutura Responsável pela
+
+  Governança do <strong>Open Banking</strong> de que trata o art. 44, § 1º, da Resolução
+
+  Conjunta nº 1, de 4 de maio de 2020.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Art. 2º&#160; Fica
+
+  revogada a Instrução
+
+  Normativa nº 95, de
+
+  14 de abril de 2021.</span></p><p class="MsoNormal" style="margin-bottom&#58;36pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Art. 3º &#160;Esta
+
+  Instrução Normativa entra em vigor na data de sua publicação.</span></p><p class="MsoNormal" style="margin-left&#58;70.9pt;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">João André Calvino Marques Pereira&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Haroldo Jayme Martins Froes Cruz<br>Chefe do Departamento de Regulação do&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Chefe do Departamento de<br>Sistema Financeiro &#160;&#160;&#160;&#160;  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160; &#160;&#160;&#160; Tecnologia da Informação<br></span></p><p class="MsoNormal" style="margin-left&#58;70.9pt;"><br style="font-family&#58;calibri;font-size&#58;17.3333px;"></p>
+
+
+  <p class="MsoNormal" style="margin-bottom&#58;6pt;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">ANEXO À INSTRUÇÃO NORMATIVA
+
+  BCB Nº 130, DE 22 DE JULHO DE 2021</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Manual de APIs do Open Banking Versão 3.0</strong></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;"><a name="_Toc14166332"></a><a name="_Toc14193634"></a><a name="_Toc14354699"></a><a name="_Toc14354849"></a><a name="_Toc14681789"></a><a name="_Toc52541656"></a><a name="_Toc54368699"></a><a name="_Toc54717499"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Histórico de revisão</strong></span></a><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span></p><table class="MsoTableGrid" style="margin-left&#58;70.9pt;border-collapse&#58;collapse;border&#58;medium none;" width="680" cellspacing="0" cellpadding="0" border="1"><tbody><tr style="height&#58;11.7pt;"><td style="width&#58;70.65pt;border&#58;1pt solid windowtext;padding&#58;0cm 5.4pt;height&#58;11.7pt;" width="94" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Data</strong></span></p></td><td style="width&#58;49.6pt;border-color&#58;windowtext windowtext windowtext currentcolor;border-style&#58;solid solid solid none;border-width&#58;1pt 1pt 1pt medium;padding&#58;0cm 5.4pt;height&#58;11.7pt;" width="66" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Versão</strong></span></p></td><td style="width&#58;389.8pt;border-color&#58;windowtext windowtext windowtext currentcolor;border-style&#58;solid solid solid none;border-width&#58;1pt 1pt 1pt medium;padding&#58;0cm 5.4pt;height&#58;11.7pt;" width="520" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Descrição
+    das alterações</strong></span></p></td></tr><tr><td style="width&#58;70.65pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="94" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">29/10/2020</span></p></td><td style="width&#58;49.6pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="66" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">1.0</span></p></td><td style="width&#58;389.8pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="520" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Versão
+    inicial.</span></p></td></tr><tr><td style="width&#58;70.65pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="94" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">14/4/2021</span></p></td><td style="width&#58;49.6pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="66" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">2.0</span></p></td><td style="width&#58;389.8pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="520" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Incorporação de requisitos da Fase 2 do <strong>Open Banking</strong>.</span></p><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Alteração de “Especificações” na secão de “Definições e
+    recomendações”.</span></p><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Aprimoramento da “Introdução” e exclusão da seção de
+    “Apresentação”.</span></p></td></tr><tr><td style="width&#58;70.65pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="94" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">22/7/2021</span></p></td><td style="width&#58;49.6pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="66" valign="top"><p style="margin&#58;0cm;text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">3.0</span></p></td><td style="width&#58;389.8pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="520" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Incorporação de requisitos da Fase 3 do <strong>Open Banking</strong>.</span></p><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Alteração da seção de “APIs do <strong>Open Banking</strong>”</span></p><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Correção da seção de “Disponibilidade”.</span></p></td></tr></tbody></table><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;">
+
+  </span><p class="MsoNormal" style="margin&#58;6pt 0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc52541658"></a><a name="_Toc54366376"></a><a name="_Toc54717501"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">Termos de Uso</strong></a></span><a name="_Toc52541659"></a><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Este
+
+  manual detalha os requisitos técnicos para a implementação dos elementos
+
+  necessários à operacionalização do <strong>Open Banking</strong>, complementando a
+
+  regulamentação vigente sobre o tema. </span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">O
+
+  manual será revisto e atualizado periodicamente a fim de preservar a compatibilidade
+
+  com a regulamentação, bem como para incorporar os aprimoramentos decorrentes da
+
+  evolução do <strong>Open Banking</strong> e da tecnologia. </span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Informações
+
+  mais detalhadas e exemplos da aplicação deste manual poderão ser encontrados
+
+  nos guias e tutoriais disponíveis no Portal do <strong>Open Banking</strong> no Brasil,
+
+  na Área do Desenvolvedor.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Sugestões,
+
+  críticas ou pedidos de esclarecimento de dúvidas relativas ao conteúdo deste
+
+  documento podem ser enviados ao Banco Central do Brasil por meio dos canais
+
+  institucionais dessa autarquia.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc54366377"></a><a name="_Toc54717502"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;"></strong></a></span></p><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;">
+
+
+  </span><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;"><a name="_Toc54366377"></a><a name="_Toc54717502"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Referências</strong></span></a><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Estas
+
+  especificações baseiam-se, referenciam e complementam, quando aplicável, os
+
+  seguintes documentos&#58;</span></p><table class="MsoNormalTable" style="margin-left&#58;70.9pt;border-collapse&#58;collapse;border&#58;medium none;" width="680" cellspacing="0" cellpadding="0" border="1"><tbody><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border&#58;1pt solid windowtext;background&#58;white none repeat scroll 0% 0%;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="text-align&#58;center;" align="center"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">Referência</strong></p></td><td style="width&#58;11cm;border-color&#58;windowtext windowtext windowtext currentcolor;border-style&#58;solid solid solid none;border-width&#58;1pt 1pt 1pt medium;background&#58;white none repeat scroll 0% 0%;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong><span style="color&#58;black;">Origem</span></strong><strong></strong></span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Resolução Conjunta nº 1, de 2020</span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">https&#58;//www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20Conjunta&amp;numero=1<span class="MsoHyperlink" style="font-family&#58;calibri;font-size&#58;17.3333px;"> </span></span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Resolução BCB nº 32, de 2020</span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">https&#58;//www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&amp;numero=32</span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">Hypertext
+    Transfer Protocol – HTTP/1.1</span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><span lang="EN-US">https&#58;//tools.ietf.org/html/rfc2616</span><span lang="EN-US"> </span></span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">ISO
+    20022</span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">https&#58;//www.iso20022.org/<span class="MsoHyperlink" style="font-family&#58;calibri;font-size&#58;17.3333px;"> </span></span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">OpenAPI
+    Specification</span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">https&#58;//github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/3.0.0.md<span class="MsoHyperlink" style="font-family&#58;calibri;font-size&#58;17.3333px;"> </span></span></p></td></tr><tr style="height&#58;12.1pt;"><td style="width&#58;7cm;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="265"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">Representational
+    State Transfer </span></p></td><td style="width&#58;11cm;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 3.5pt;height&#58;12.1pt;" width="416"><p class="MsoNormal" style="margin&#58;2pt 0cm;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;" lang="EN-US">https&#58;//www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm<span class="MsoHyperlink" style="font-family&#58;calibri;font-size&#58;17.3333px;"> </span></span></p></td></tr></tbody></table>
+
+  <div><a name="_Toc52541660"></a><a name="_Toc54366378"></a><a name="_Toc54717503"></a><a name="_Toc47386159"></a><strong style="font-family&#58;calibri;font-size&#58;17.3333px;"><br></strong></div><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>1. Introdução</strong><br></span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">O <strong>Open Banking</strong> está intrinsecamente ligado
+
+  às APIs, interfaces por meio das quais será possível interligar os diferentes
+
+  sistemas das instituições. Ao serem disponibilizadas pelos participantes, as
+
+  APIs precisam satisfazer condições tais como padronização,
+
+  robustez e segurança, a fim de que o objetivo de compartilhamento de dados e
+
+  serviços seja atendido a contento.</span></p><p style="margin&#58;6pt 0cm 0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Nesse sentido, este manual visa a definir os
+
+  principais aspectos relativos às especificações e implementações das APIs que
+
+  integram o <strong>Open Banking</strong> no País, observando as disposições da Resolução
+
+  Conjunta nº 1, de 4 de maio de 2020, e da Resolução BCB nº 32, de 29 de outubro
+
+  de 2020.</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">São tratados neste manual aspectos como&#58; formato para a
+
+  troca de dados, desenho da interface, protocolo para transmissão de dados,
+
+  versionamento, modelo de APIs e <strong>endpoints.</strong> Desse modo, o manual
+
+  estabelece as diretrizes gerais sem esgotar todos os aspectos necessários à
+
+  implementação das APIs para o <strong>Open Banking</strong>. As demais definições a cargo
+
+  do mercado, por meio da estrutura responsável pela governança, nos termos da
+
+  Circular nº 4.032, de 23 de junho de 2020, estarão disponíveis no Portal do <strong>Open
+
+  Banking</strong><em> </em>no Brasil, no qual poderão ser encontrados guias, tutoriais
+
+  e outras informações operacionais sobre as APIs.</span></p><p style="margin&#58;6pt 0cm 0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Ao longo deste manual, será constante o uso de siglas e
+
+  terminologia específica para designar algumas expressões cotidianas dos
+
+  profissionais da área de tecnologia. Alguns exemplos das mais frequentemente
+
+  utilizadas, com as correspondentes definições, são as seguintes&#58;</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">I - API (<strong>Application Programming Interface</strong>)&#58; um conjunto de
+
+  definições sobre como um sistema pode acessar dados ou funcionalidades providos
+
+  por um outro sistema;</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">II - REST (<strong>Representational State Transfer</strong>)&#58; estilo arquitetural de <strong>software</strong>;</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">III - API RESTful&#58; API que adere às restrições do estilo
+
+  arquitetural
+
+  REST;</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">IV - OpenAPI&#58; linguagem de especificação de APIs RESTful;</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">V -<strong> Endpoint</strong>&#58; elemento de uma especificação OpenAPI sobre o qual podem ser executadas
+
+  operações para acessar dados ou funcionalidades;</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">VI - HTTP (<strong>Hypertext Transfer Protocol</strong>)&#58; protocolo para sistemas hipermídia, distribuídos e colaborativos; e</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">VII - Operação&#58; elemento de uma especificação OpenAPI que declara
+
+  uma maneira válida de se acessar um <strong>endpoint</strong>, informando, por exemplo,
+
+  qual método HTTP (GET, POST, etc.) utilizar, nomes e tipos de parâmetros, etc.</span></p><p class="MsoNormal" style="margin-top&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687726"></a><a name="_Toc54366379"></a><a name="_Toc54717504"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">2. APIs do Open Banking</strong></a></span></p><p class="MsoNormal" style="margin&#58;6pt 0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">A
+
+  tabela abaixo exibe as APIs que integram o <strong>Open Banking</strong>. A coluna &quot;Tipo&quot;
+
+  informa a classificação da API para fins de desempenho (ver a subseção &quot;Desempenho&quot;
+
+  da seção &quot;Requisitos Não Funcionais&quot;). </span></p><table class="MsoTableGrid" style="margin-left&#58;70.9pt;border-collapse&#58;collapse;border&#58;medium none;" cellspacing="0" cellpadding="0" border="1"><tbody><tr><td style="width&#58;120.25pt;border&#58;1pt solid windowtext;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal" style="text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Nome</strong></span></p></td><td style="width&#58;276.4pt;border-color&#58;windowtext windowtext windowtext currentcolor;border-style&#58;solid solid solid none;border-width&#58;1pt 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal" style="text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Descrição</strong></span></p></td><td style="width&#58;113.15pt;border-color&#58;windowtext windowtext windowtext currentcolor;border-style&#58;solid solid solid none;border-width&#58;1pt 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal" style="text-align&#58;center;" align="center"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>Tipo</strong></span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Produtos e Serviços</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados abertos relacionados
+    a produtos e serviços oferecidos pelos participantes do <strong>Open Banking.</strong></span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Canais de Atendimento</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados abertos relacionados
+    aos canais de atendimento ao público oferecidos pelos participantes do <strong>Open
+    Banking.</strong></span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Consentimento</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve permitir a criação, consulta e revogação
+    de consentimentos de acesso a dados. </span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Dados Cadastrais</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso aos dados cadastrais de clientes
+    e seus representantes.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Contas</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso aos dados transacionais de
+    clientes relacionados a contas de depósito à vista, contas de poupança e
+    contas pré-paga.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Cartão de Crédito</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso aos dados transacionais de
+    clientes relacionados a contas de pagamento pós-paga.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Operações de Crédito - &#160;Adiantamento a Depositantes</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados transacionais de
+    clientes relacionados a operações de crédito na modalidade adiantamento a depositantes.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Operações de Crédito - Empréstimos </span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados transacionais de
+    clientes relacionados a operações de crédito na modalidade empréstimo.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Operações de Crédito - Direitos creditórios
+    descontados </span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados transacionais de
+    clientes relacionados a operações de crédito na modalidade direitos
+    creditórios descontados.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Operações de Crédito - Financiamentos </span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados transacionais de
+    clientes relacionados a operações de crédito na modalidade financiamento.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Hlk75788891"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Pagamentos</span></a></span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve
+    permitir a criação do consentimento do pagamento, criar a iniciação de
+    pagamento e acompanhar a situação das solicitações realizadas.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Média
+    prioridade</span></p></td></tr><tr><td style="width&#58;120.25pt;border-color&#58;currentcolor windowtext windowtext;border-style&#58;none solid solid;border-width&#58;medium 1pt 1pt;padding&#58;0cm 5.4pt;" width="160" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Situação do Ambiente</span></p></td><td style="width&#58;276.4pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="369" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deve dar acesso a dados sobre a
+    disponibilidade atual das implementações das APIs. Também deve dar acesso a
+    dados sobre indisponibilidades programadas.</span></p></td><td style="width&#58;113.15pt;border-color&#58;currentcolor windowtext windowtext currentcolor;border-style&#58;none solid solid none;border-width&#58;medium 1pt 1pt medium;padding&#58;0cm 5.4pt;" width="151" valign="top"><p class="MsoNormal"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Alta prioridade</span></p></td></tr></tbody></table><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;">
+
+  </span><p class="MsoNormal" style="margin&#58;6pt 0cm;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687727"></a><a name="_Toc54366380"></a><a name="_Toc54717505"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3. Princípios</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Os princípios abaixo
+
+  norteiam as especificações e implementações das APIs do <strong>Open Banking</strong>.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687728"></a><a name="_Toc54366381"></a><a name="_Toc54717506"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3.1 Experiência do usuário</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As especificações e
+
+  implementações das APIs devem oferecer uma boa experiência para os usuários,
+
+  sejam eles implementadores ou consumidores das APIs.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687729"></a><a name="_Toc54366382"></a><a name="_Toc54717507"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3.2 Independência de
+
+  tecnologia</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As especificações das APIs
+
+  devem ser independentes de tecnologia, podendo ser implementadas e consumidas
+
+  em diferentes linguagens e/ou plataformas tais como Java, JavaScript, Python e
+
+  Windows, Linux, Android e iOS.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687730"></a><a name="_Toc54366383"></a><a name="_Toc54717508"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3.3 Segurança</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Procedimentos e controles
+
+  (assinaturas digitais, criptografia, protocolos de autenticação e autorização,
+
+  entre outros) devem ser adotados de forma a proteger os participantes do <strong>Open
+
+  Banking</strong>, seus clientes, os consumidores das APIs e demais participantes do
+
+  ecossistema, observada a compatibilidade com a política de segurança
+
+  cibernética da instituição.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687731"></a><a name="_Toc54366384"></a><a name="_Toc54717509"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3.4 Extensibilidade</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">No futuro, as APIs poderão
+
+  ser evoluídas para atender a novos casos de uso e, portanto, devem ser
+
+  especificadas e implementadas de forma a permitir e facilitar extensões como,
+
+  por exemplo, novos <strong>endpoints</strong>, operações, parâmetros e propriedades.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687732"></a><a name="_Toc54366385"></a><a name="_Toc54717510"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3.5 Padrões abertos</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Padrões abertos devem ser
+
+  adotados sempre que possível.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687733"></a><a name="_Toc54366386"></a><a name="_Toc54717511"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3.6 APIs RESTful</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As especificações das APIs
+
+  devem atender às restrições do estilo arquitetural REST sempre que possível.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687734"></a><a name="_Toc54366387"></a><a name="_Toc54717512"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3.7 ISO 20022</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As respostas das APIs devem
+
+  ter como base, sempre que possível, os elementos e componentes de mensagem ISO
+
+  20022 ( https&#58;//www.iso20022.org/ ), os quais poderão ser modificados, caso
+
+  necessário, para deixar as respostas mais simples e/ou atender às
+
+  características locais, tal como implementado em diferentes jurisdições.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687735"></a><a name="_Toc54366388"></a><a name="_Toc54717513"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">3.8 Declaração de
+
+  obrigatoriedade</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Todos os elementos que
+
+  compõem as especificações das APIs (<strong>endpoints</strong>, operações, parâmetros,
+
+  propriedades de respostas, etc.) devem ser explicitamente declarados como &quot;Obrigatório&quot;,
+
+  &quot;Opcional&quot; ou &quot;Condicional&quot;, caso sejam obrigatórios apenas
+
+  em certas condições.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Funcionalidades
+
+  que sejam de implementação opcional pelo transmissor devem ficar explícitas na
+
+  sua documentação, tanto para informar adequadamente ao público transmissor, que
+
+  poderá ou não implementar a funcionalidade, quanto ao público consumidor, que pode
+
+  não encontrar a funcionalidade disponível em alguns transmissores.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687736"></a><a name="_Toc54366389"></a><a name="_Toc54717514"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">4. Definições e
+
+  recomendações</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As definições e
+
+  recomendações abaixo devem ser observadas pelas especificações e implementações
+
+  das APIs do <strong>Open Banking</strong>.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687737"></a><a name="_Toc54366390"></a><a name="_Toc54717515"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">4.1 Especificações</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As APIs devem ser
+
+  especificadas com a versão 3.0.0 da linguagem OpenAPI
+
+  (https&#58;//github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/3.0.0.md).</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As especificações das APIs devem
+
+  ser analisadas com a versão 5.9.0 do software livre e de código aberto <strong>Spectral</strong>
+
+  (https&#58;//github.com/stoplightio/spectral/tree/v5.9.0). A análise DEVE ser feita
+
+  com o conjunto de regras (<strong>ruleset</strong>) padrão desta versão do <strong>Spectral</strong>.
+
+  O resultado da análise não deve conter erros ou alertas.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">É recomendado que a versão
+
+  3.0.25 do software livre e de código aberto <strong>Swagger Codegen</strong>
+
+  (https&#58;//github.com/swagger-api/swagger-codegen/tree/v3.0.25) seja utilizado
+
+  para gerar o código de clientes e também o código inicial de implementações das
+
+  APIs a partir de suas especificações. Recomenda-se que o código gerado seja
+
+  analisado com o intuito de identificar possíveis recursos da linguagem OpenAPI
+
+  que foram utilizados nas especificações, mas que não são adequadamente
+
+  suportados pelo <strong>Swagger Codegen</strong> e, possivelmente, por outros <strong>softwares</strong>
+
+  que trabalham com especificações OpenAPI. Caso isto ocorra, deve-se avaliar se
+
+  não é possível alterar as especificações para não mais fazer uso destes
+
+  recursos.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Implementações de exemplo
+
+  das APIs devem ser disponibilizadas. Os dados retornados por elas não precisam
+
+  ser dados reais e nem volumosos, pois o objetivo da disponibilização é dar ao
+
+  Banco Central do Brasil, aos implementadores e aos consumidores das APIs mais
+
+  um recurso para dirimir eventuais dúvidas acerca de suas especificações e
+
+  implementações.<a name="_Toc53687738"> É recomendado que o código inicial de
+
+  implementações das APIs mencionado anteriormente seja complementado de forma a
+
+  constituir-se nas implementações de exemplo.</a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As informações disponibilizadas nos dicionários de dados devem
+
+  ser consistentes com as especificações OpenAPI associadas. </span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Todos os <strong>endpoints </strong>das APIs implementados devem ser previamente
+
+  registrados no diretório de participantes. </span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Todos os <strong>endpoints</strong> registrados que retornem listas,
+
+  caso os parâmetros sejam válidos, devem retornar a lista associada, mesmo que
+
+  uma seja lista vazia. Não é considerado um retorno válido o erro 404, neste
+
+  cenário, quando não houver a informação associada.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc54366391"></a><a name="_Toc54717516"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">4.2 Versionamento</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As versões das
+
+  especificações das APIs serão tipificadas como <strong>&quot;major&quot;</strong>, <strong>&quot;minor&quot;</strong>,
+
+  <strong>&quot;patch&quot;</strong> e <strong>&quot;release candidate&quot;</strong> de acordo com
+
+  os critérios a seguir&#58;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">I -<strong> major&#58; </strong>inclui
+
+  novas características da implementação, mudanças, correções a serem incorporadas
+
+  e que podem ser incompatíveis com versões anteriores, por exemplo, v1.0.0 e
+
+  v2.0.0;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">II -<strong> minor&#58;</strong> pequenas
+
+  mudanças nos elementos já existentes, com manutenção da compatibilidade com as
+
+  versões até a <strong>major</strong> imediatamente anterior, por exemplo, v1.1.0 e
+
+  v1.2.0;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">III -<strong> patch&#58; </strong>esclarecimentos
+
+  às especificações <strong>minor</strong>, não incluem alterações funcionais, por exemplo,
+
+  v1.1.1, v1.1.2; e</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">IV -<strong> release candidate&#58;</strong>
+
+  versões de pré-lançamento de qualquer versão futura do tipo <strong>patch</strong>, <strong>minor</strong>
+
+  ou <strong>major</strong>, por exemplo, v1.0.0-rc e v1.0.0-rc2.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">A Estrutura Responsável
+
+  pela Governança do <strong>Open Banking</strong> de que trata o art. 44, § 1º, da
+
+  Resolução Conjunta nº 1, de 2020, poderá lançar novas versões dos tipos <strong>minor</strong>,
+
+  <strong>patch</strong> e <strong>release candidate</strong> das APIs. Entretanto, versões do tipo <strong>major</strong>
+
+  só poderão ser lançadas com a anuência do Banco Central do Brasil, o qual será
+
+  responsável por definir o cronograma de implantação de versões <strong>major</strong>.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Por fim, credenciais de
+
+  acesso associadas às APIs devem ser agnósticas às suas versões.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc54717517"></a><a name="_Toc53687739"></a><a name="_Toc54366392"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">4.3 Portal do Open Banking</strong></a></span><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>
+
+  no Brasil</strong></span><a name="_Hlk53687679"></a><span style="font-family&#58;calibri;font-size&#58;17.3333px;"></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">O
+
+  sítio eletrônico de que trata o art. 15 da Resolução BCB nº 32, de 2020, deverá conter definições e recomendações acessórias não
+
+  presentes neste manual, bem como outros artefatos necessários à especificação,
+
+  implementação e consumo das APIs do <strong>Open Banking</strong>. Todas as definições e
+
+  recomendações acessórias e artefatos publicados no portal deverão estar em
+
+  concordância com este e com os demais manuais do <strong>Open Banking</strong>.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687740"></a><a name="_Toc54366393"></a><a name="_Toc54717518"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">4.4 Cronograma</strong></a><strong></strong></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">O Portal do <strong>Open Banking</strong>
+
+  deverá listar as APIs em produção, suas versões atuais, datas em que entraram
+
+  em produção, <strong>link</strong> para suas especificações e lista de mudanças desde a
+
+  última publicação. Também deverá apresentar o cronograma de homologação das
+
+  APIs, indicando versão, data de divulgação, data prevista de entrada em
+
+  produção e outras informações relevantes. </span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>4.5
+
+  Logs de mudanças</strong></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Todas as versões já
+
+  publicadas das APIs DEVEM ser listadas no Portal do <strong>Open Banking</strong>,
+
+  juntamente com os respectivos <strong>logs</strong> de mudanças e períodos em que estiveram
+
+  em produção.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687741"></a><a name="_Toc54366394"></a><a name="_Toc54717519"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">4.6 Definições acessórias</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">A Estrutura Responsável
+
+  pela Governança do <strong>Open Banking</strong> deverá estabelecer e publicar no Portal
+
+  do <strong>Open Banking</strong> um guia de estilo de especificações de APIs contendo
+
+  definições e recomendações para os seguintes elementos&#58;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">I - Estrutura de URIs (<em>Uniform
+
+  Resource Identifiers</em>);</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">II - Cabeçalhos HTTP;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">III - Códigos de status
+
+  HTTP;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">IV - Convenções de corpo de
+
+  requisições e respostas;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">V - Convenções de
+
+  nomenclatura;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">VI - Tipos de dados comuns;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">VII - Paginação; e</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">VIII - Estabilidade de identificadores.<a name="_Toc53687742"></a><a name="_Toc54366395"></a><a name="_Toc54717520"><span></span></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>4.7 Processo de gerência de mudanças</strong></span></p><p class="MsoNormal" style="margin&#58;0cm 0cm 6pt 0.05pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">A
+
+  Estrutura
+
+  Responsável pela Governança do <strong>Open Banking</strong> deve estabelecer e publicar no Portal do <strong>Open
+
+  Banking</strong> o processo que ela adotará para gerenciar mudanças nas
+
+  especificações das APIs.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>4.8 Tutoriais</strong></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Todas as informações necessárias para o
+
+  desenvolvimento, testes e entrada em produção de aplicações ou APIs no <strong>Open
+
+  Banking</strong> devem estar disponíveis em tutoriais publicados na Área do
+
+  Desenvolvedor no Portal do <strong>Open Banking</strong>. Cada tutorial deve conter todos
+
+  os passos necessários para o completo desenvolvimento da atividade em questão,
+
+  como desenvolvimento e uso de aplicações e APIs, autenticação e autorização,
+
+  uso da <strong>Sandbox</strong>, aplicação de testes de conformidade e cadastramento no
+
+  diretório. Quando pertinente, devem ser fornecidos exemplos de código fonte ou
+
+  de capturas de telas, tornando o processo o mais claro possível para todos os
+
+  participantes e interessados.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><strong>4.9 Extensibilidade</strong></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As especificações das APIs
+
+  do <strong>Open Banking</strong> podem não dar acesso a todos os dados e funcionalidades
+
+  que um ou mais participantes desejam expor para os consumidores das APIs. Isso
+
+  pode ser necessário para melhor suportar casos de uso ou possibilitar inovações
+
+  em produtos e serviços financeiros. Para atender estas e outras necessidades, é
+
+  facultado aos participantes implementarem versões estendidas das APIs
+
+  inteiramente compatíveis com as especificações padrões das APIs que são&#58;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">I - novos <strong>endpoints</strong>;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">II - novas operações em <strong>endpoints</strong>
+
+  pré-existentes;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">III - novos parâmetros em
+
+  operações pré-existentes, desde que opcionais; e</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">IV - novas propriedades em
+
+  respostas pré-existentes.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">A Estrutura Responsável
+
+  pela Governança do <strong>Open Banking</strong> deverá publicar no Portal do <strong>Open
+
+  Banking</strong> as definições e recomendações acessórias relacionadas às extensões
+
+  das APIs.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Todas as extensões
+
+  implementadas pelos participantes deverão estar listadas, com sua documentação
+
+  referenciada, em seção específica no Portal do <strong>Open Banking</strong> e
+
+  disponíveis para consumo, observadas as regras de ressarcimento de despesas
+
+  previstas na regulamentação vigente.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687743"></a><a name="_Toc54366396"></a><a name="_Toc54717521"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">5. Requisitos não
+
+  funcionais</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Esta seção apresenta os
+
+  requisitos não funcionais que as instituições participantes devem observar na
+
+  implementação das APIs do <strong>Open Banking</strong>.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687744"></a><a name="_Toc54366397"></a><a name="_Toc54717522"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">5.1 Limites de tráfego</strong></a><strong></strong></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As APIs deverão suportar,
+
+  no mínimo&#58;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">I - 300 requisições por
+
+  segundo globalmente, ou seja, independente do endereço IP (<strong>Internet Protocol</strong>)
+
+  do qual provêm as requisições; e</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">II - 500 requisições por
+
+  minuto originadas de um mesmo endereço IP.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As requisições que
+
+  excederem os limites poderão ser enfileiradas ou recusadas, caso em que deverão
+
+  ser respondidas com o código de status HTTP 429 (<strong>Too Many Requests</strong>).</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Por fim, as requisições que
+
+  ultrapassarem os limites deverão ser desprezadas no cálculo do tempo de
+
+  resposta das implementações das APIs.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687745"></a><a name="_Toc54366398"></a><a name="_Toc54717523"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">5.2 Desempenho</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Deverá ser medido o tempo
+
+  de resposta de cada requisição, ou seja, o tempo transcorrido entre o
+
+  recebimento de uma requisição que não ultrapassa os limites de tráfego e o
+
+  momento em que a requisição é completamente respondida. Adicionalmente, esta
+
+  medição deverá ser feita de maneira que os tempos medidos sejam os mais
+
+  próximos possíveis dos tempos de resposta experimentados por quem fez a
+
+  requisição. Neste contexto, as APIs deverão manter o percentil 95 do tempo de
+
+  resposta em no máximo&#58;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">I - 1000ms, caso sejam
+
+  classificadas como APIs de alta prioridade;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">II - 1500ms, caso sejam
+
+  classificadas como APIs de média prioridade; e</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">III - 4000ms, caso sejam
+
+  APIs administrativas.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Por exemplo, em um dia que
+
+  uma API da alta prioridade receba 10.000 requisições, o tempo de resposta de pelo
+
+  menos 9.500 requisições deve ser inferior a 1.000ms.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;"><a name="_Toc53687746"></a><a name="_Toc54366399"></a><a name="_Toc54717524"><strong style="font-family&#58;calibri;font-size&#58;17.3333px;">5.3 Disponibilidade</strong></a></span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">As APIs que integram o <strong>Open Banking</strong>, listadas na Seção 2 deste
+
+  manual, deverão satisfazer requisitos mínimos de disponibilidade. Cada um de
+
+  seus<strong> endpoints</strong> deverá estar disponível&#58;</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">I - 85%
+
+  do tempo a cada 24 horas; e</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">II - 99,5%
+
+  do tempo a cada 3 meses.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">Há perspectiva de elevação
+
+  dos requisitos mínimos de disponibilidade das APIs destinadas ao
+
+  compartilhamento de dados e serviços do escopo do <strong>Open Banking</strong>, de forma
+
+  a harmonizá-los com os dos sistemas de pagamentos críticos.</span></p><p class="MsoNormal" style="margin-bottom&#58;6pt;text-indent&#58;70.9pt;text-align&#58;justify;"><span style="font-family&#58;calibri;font-size&#58;17.3333px;">O
+
+  Portal do <strong>Open Banking</strong> deverá conter uma especificação detalhada de como
+
+  a disponibilidade de cada <strong>endpoint </strong>será calculada.<br></span></p><span id="ms-rterangepaste-start" aria-hidden="true"></span>
+
+
+  <p class="MsoNormal" style="text-align&#58;right;" align="right"><span style="font-family&#58;&quot;calibri&quot;, sans-serif;font-size&#58;17.3333px;">Brasília, 22 de julho de
+
+  2021.</span></p><span id="ms-rterangepaste-end" aria-hidden="true"></span></div>

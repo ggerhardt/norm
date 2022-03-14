@@ -65,5 +65,9 @@ get:
         application/json:
           schema:
             $ref: ..\components\schemas\Normas.yaml
+          examples:
+            busca:
+              value:
+                $ref: ..\components\examples\list.yaml
     '400':
       description: Erro nos parâmetros.

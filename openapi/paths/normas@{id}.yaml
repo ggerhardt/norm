@@ -16,5 +16,15 @@ get:
         application/json:
           schema:
             $ref: ..\components\schemas\Norma.yaml
+          examples:
+            Comunicado:
+              value:
+                $ref: ..\components\examples\comunicado.yaml
+            Carta Circular:
+              value:
+                $ref: ..\components\examples\cartacircular.yaml
+            Instrução Normativa BCB:
+              value:
+                $ref: ..\components\examples\instrucaoNormativaBCB.yaml
     '400':
       description: Erro nos parâmetros.

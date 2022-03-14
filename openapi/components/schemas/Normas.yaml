@@ -1,6 +1,13 @@
 type: object
 additionalProperties: false
 properties:
+  meta:
+    type: object
+    properties:
+      totalRows:
+        type: integer
+      rowCount:
+        type: integer
   conteudo:
     type: array
     items:
@@ -37,22 +44,37 @@ properties:
           type: string
           title: Data da publicação
           description: Data de publicação, com formato d/m/aaaa hh:mm
-          example: '9/3/2022 10:22'
+          example: 9/3/2022 10:22
         assunto:
           type: string
           title: Assunto
           description: Descrição do documento publicado
-          example: "<div class=\"ExternalClass3EC97B0925564B8E8CB062E4E939EC7D\">Divulga nome de pessoas com interesse em participar do controle de Instituição de Pagamento.\n</div>"
+          example: >-
+            <div class="ExternalClass3EC97B0925564B8E8CB062E4E939EC7D">Divulga
+            nome de pessoas com interesse em participar do controle de
+            Instituição de Pagamento.
+
+            </div>
         unidadeResponsavel:
-            type: string
-            title: Unidade responsável
-            description: Unidade responsável pelo documento
-            example: DEORF
+          type: string
+          title: Unidade responsável
+          description: Unidade responsável pelo documento
+          example: DEORF
         revogado:
           type: boolean
-          title: Revogado    
-          description: Indica se o documento está revogado. Se não estiver revogado, está em vigor.
+          title: Revogado
+          description: >-
+            Indica se o documento está revogado. Se não estiver revogado, está
+            em vigor.
         cancelado:
           type: boolean
           title: Cancelado
           description: Indica que o documento foi cancelado.
+        posicao:
+          type: integer
+          title: Posição
+          description: Posição na ordem de consulta.
+        voto:
+          type: string
+          title: Voto
+          description: Dados do voto associado.
