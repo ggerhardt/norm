@@ -20,9 +20,11 @@ normasVinculadas:
   - tipo: INSTRUÇÃO NORMATIVA BCB
     numero: 77
     ano: 2021
+    id: 1111
   - tipo: CARTA CIRCULAR
     numero: 4038
     ano: 2020
+    id: 1112    
 referencias: 
   - Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do BCB), art. 23, inciso I, "a".
   - Lei nº 9.784/1999, art. 40.
