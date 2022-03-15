@@ -4,9 +4,9 @@ properties:
   meta:
     type: object
     properties:
-      totalRows:
+      totalRecords:
         type: integer
-      rowCount:
+      recordsCount:
         type: integer
   conteudo:
     type: array
