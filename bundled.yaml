@@ -1,7 +1,10 @@
 openapi: 3.0.2
 info:
   title: Normativos do Banco Central
-  description: Permite a busca de normativos do Banco Central por diversos parâmetros.
+  description: >-
+    Permite a busca de normativos do Banco Central por diversos parâmetros e
+    acesso a detalhes de normas. As informações aqui listadas não substituem a
+    publicação no DOU e no Sisbacen.
   version: '1.0'
   license:
     url: http://www.opendefinition.org/licenses/odc-odbl
@@ -3540,7 +3543,7 @@ components:
         referencias:
           type: array
           title: Referências
-          description: Referências do documento.
+          description: Base Legal e Regulamentar, Citações e Revogações.
           example:
             - >-
               Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do BCB),

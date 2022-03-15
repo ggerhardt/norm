@@ -156,7 +156,7 @@ properties:
   referencias:
     type: array
     title: Referências
-    description: Referências do documento.
+    description: Base Legal e Regulamentar, Citações e Revogações.
     example:
       - >-
         Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do BCB), arts. 23,
