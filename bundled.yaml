@@ -468,9 +468,11 @@ paths:
                       - tipo: INSTRUÇÃO NORMATIVA BCB
                         numero: 77
                         ano: 2021
+                        id: 1111
                       - tipo: CARTA CIRCULAR
                         numero: 4038
                         ano: 2020
+                        id: 1112
                     referencias:
                       - >-
                         Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do
@@ -1977,15 +1979,19 @@ paths:
                       - tipo: INSTRUÇÃO NORMATIVA BCB
                         numero: 95
                         ano: 2021
+                        id: 1111
                       - tipo: RESOLUÇÃO CONJUNTA
                         numero: 1
                         ano: 2020
+                        id: 1112
                       - tipo: RESOLUÇÃO BCB
                         numero: 32
                         ano: 2020
+                        id: 1113
                       - tipo: CIRCULAR
                         numero: 4032
                         ano: 2020
+                        id: 1114
                     referencias:
                       - >-
                         Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do
@@ -3540,10 +3546,15 @@ components:
                 title: Ano da norma vinculada
                 description: Ano da norma vinculada.
                 example: 2021
+              id:
+                type: integer
+                title: Id da norma
+                description: Id da norma vinculada.
+                example: 11111
         referencias:
           type: array
           title: Referências
-          description: Base Legal e Regulamentar, Citações e Revogações.
+          description: Base Legal e Regulamentar, Citações e Revogações00.
           example:
             - >-
               Portaria BCB nº 84.287/2015, Anexo (Regimento Interno do BCB),
