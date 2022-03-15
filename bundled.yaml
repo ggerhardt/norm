@@ -89,7 +89,7 @@ paths:
                   value:
                     meta:
                       totalRecords: 31
-                      recordsCount: 15
+                      recordCount: 15
                     conteudo:
                       - titulo: Comunicado N° 38.428
                         dataHoraTexto: 11/3/2022 14:39
@@ -3313,7 +3313,7 @@ components:
           properties:
             totalRecords:
               type: integer
-            recordsCount:
+            recordCount:
               type: integer
         conteudo:
           type: array

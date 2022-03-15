@@ -6,7 +6,7 @@ properties:
     properties:
       totalRecords:
         type: integer
-      recordsCount:
+      recordCount:
         type: integer
   conteudo:
     type: array
