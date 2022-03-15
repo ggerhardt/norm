@@ -77,6 +77,11 @@ paths:
             Define uma data final para buscar a partir do período de publicação.
             A definição da 'data de início' pode ser deixada em branco mesmo que
             o 'data final' seja definida.
+        - name: starRecord
+          schema:
+            type: integer
+          in: query
+          description: Usado para paginação. Retorna os registros a partir desse número.
       responses:
         '200':
           description: Lista de normas
